@@ -93,7 +93,7 @@
     optSub: { ja: "わんにゃんプランに追加できます（税込）", en: "Add-on for the Cat & Dog Plan (tax incl.)" },
     optWalk1: { ja: "お散歩15分", en: "15-min walk" },
     optWalk2: { ja: "お散歩30分", en: "30-min walk" },
-    feeNote: { ja: "※交通費は対象エリア内 往復一律700円（税込）。エリア外は別途ご相談ください。", en: "* Travel fee: a flat ¥700 round trip within our service area (tax incl.). Outside the area, please ask us." },
+    feeNote: { ja: "※交通費は対象エリア内一律500円（税込）。エリア外は別途ご相談ください。", en: "* Travel fee: a flat ¥500 within our service area (tax incl.). Outside the area, please ask us." },
     priceCancel: {
       ja: "キャンセル料：ご利用日の15日前以内は50％、10日前以内は100％を申し受けます。料金は税込表示です。",
       en: "Cancellation: 50% within 15 days of the booked date, 100% within 10 days. Prices include tax.",
