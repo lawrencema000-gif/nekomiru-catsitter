@@ -97,7 +97,7 @@
     optSub: { ja: "わんにゃんプランに追加できます（税込）", en: "Add-on for the Cat & Dog Plan (tax incl.)" },
     optWalk2: { ja: "お散歩30分", en: "30-min walk" },
     feeNote: { ja: "交通費：対象エリア内一律500円（税込）／エリア外は別途ご相談", en: "Travel fee: flat ¥500 within our service area (tax incl.) / outside the area by consultation" },
-    kartNote: { ja: "※初回のみ、カルテ作成料 1,000円（税込）をいただきます。", en: "* A one-time chart-creation fee of ¥1,000 (tax incl.) applies on your first booking." },
+    kartNote: { ja: "初回のみ・カルテ作成料 1,000円（税込）", en: "First booking only — ¥1,000 chart-creation fee (tax incl.)" },
     priceCancel: {
       ja: "キャンセル料：ご利用日の15日前以内は50％、10日前以内は100％を申し受けます。料金は税込表示です。",
       en: "Cancellation: 50% within 15 days of the booked date, 100% within 10 days. Prices include tax.",
