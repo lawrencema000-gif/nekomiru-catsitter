@@ -33,7 +33,6 @@
     heroBadge2: { ja: "猫専門", en: "Cats only" },
     heroBadge3: { ja: "毎回お写真でご報告", en: "Photo report every visit" },
     heroChip: { ja: "「今日も元気です」", en: "“Doing great today!”" },
-    photoTag: { ja: "お写真はこちらに差し替えできます", en: "Your photo goes here" },
 
     aboutLabel: { ja: "安心ポイント", en: "Why choose us" },
     aboutTitle: { ja: "「うちの子をまかせて大丈夫？」に、しっかりお応えします", en: "Everything you need to feel at ease leaving your cat with us" },
@@ -154,20 +153,12 @@
     voice3By: { ja: "— 大阪市・Tさん（サンプル）", en: "— T., Osaka City (sample)" },
 
     contactLabel: { ja: "お問い合わせ", en: "Contact" },
-    contactTitle: { ja: "まずは、お気軽にご相談ください", en: "Let's start with a friendly chat" },
-    contactLead: { ja: "ご予約・ご質問など、どんなことでもお問い合わせください。通常1〜2日以内にお返事します。", en: "Bookings, questions, anything at all — we usually reply within 1–2 days." },
-    contactEmailLabel: { ja: "メール", en: "Email" },
-    contactLineLabel: { ja: "LINE", en: "LINE" },
-    contactLineCta: { ja: "友だち追加・ご相談はこちら", en: "Add us on LINE & chat" },
+    contactTitle: { ja: "LINEでお気軽にご相談ください", en: "Reach us easily on LINE" },
+    contactLead: { ja: "ご予約・ご質問は、LINEからどうぞ。友だち追加して、メッセージを送るだけ。お返事は通常1〜2日以内です。", en: "For bookings or questions, just message us on LINE — add us as a friend and send a message. We usually reply within 1–2 days." },
+    lineCtaBig: { ja: "LINEで友だち追加・ご相談", en: "Add us on LINE & chat" },
     contactAreaLabel: { ja: "対応エリア", en: "Service area" },
     contactArea: { ja: "大阪市内", en: "Osaka City" },
 
-    formName: { ja: "お名前", en: "Name" },
-    formEmail: { ja: "メールアドレス", en: "Email" },
-    formTel: { ja: "電話番号（任意）", en: "Phone (optional)" },
-    formCats: { ja: "猫ちゃんの頭数（任意）", en: "Number of cats (optional)" },
-    formMsg: { ja: "ご相談内容", en: "Your message" },
-    formSubmit: { ja: "送信する", en: "Send" },
 
     footerName: { ja: "ねこみるキャットシッター", en: "Nekomiru Cat Sitter" },
     footerTag: { ja: "大阪市内の猫専門ペットシッター", en: "Cat-only pet sitting in Osaka City" },

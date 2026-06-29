@@ -27,14 +27,14 @@ python -m http.server 8080   # then visit http://localhost:8080
 ```
 
 ## あとで差し替える項目 / To replace later
-- 🐱 **お写真 / Photos** — hero frame and any photo spots (client has photos to add).
+- 🐱 **ロゴ画像 / Logo** — hero uses `assets/nekomiru-cat.jpg` (the line-art profile image the client provided). Swap if updated.
 - ⭐ **お客様の声 / Testimonials** — the three entries in the Voices section are samples.
 - 📋 **動物取扱業登録番号 / Animal-handling registration number** — currently **not displayed**.
   A commented placeholder is in the footer of `index.html`; add the number once registered.
   > Note: operating a paid pet-sitting business in Japan legally requires 第一種動物取扱業 registration.
 - 💬 **LINE link** — both LINE buttons point to `https://lin.ee/t4dVKcp` (official add-friend link). The LINE ID is intentionally not shown.
 
-## お問い合わせの受信設定 / Receiving form submissions
-✅ **Already configured.** An email notification is active, so every submission to the
-`contact` form is emailed to `mewmirus@gmail.com`. Submissions are also archived under
-**Netlify → Forms**. (Form detection requires `ignore_html_forms=false`, which is set on this site.)
+## お問い合わせ / Contact
+Contact is **LINE only** (per client). The contact section is a single prominent
+"友だち追加・ご相談" button linking to `https://lin.ee/t4dVKcp`. The email address and the
+old Netlify contact form have been removed from the site.

@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="css/styles.css?v=20260630m" />
+  <link rel="stylesheet" href="css/styles.css?v=20260630n" />
 </head>
 <body>
 
@@ -152,9 +152,8 @@
 
     <div class="hero-art reveal">
       <!-- Photo placeholder frame: replace .hero-photo background with a real cat photo later -->
-      <div class="hero-photo" role="img" aria-label="お写真はこちらに差し替えできます">
-        <svg class="photo-ph" aria-hidden="true"><use href="#i-camera"/></svg>
-        <span class="photo-tag" data-i18n="photoTag">お写真はこちらに差し替えできます</span>
+      <div class="hero-photo">
+        <img src="assets/nekomiru-cat.jpg" alt="ねこみるキャットシッター — 猫のラインアートのロゴ" class="hero-img" width="1102" height="1102" />
       </div>
       <div class="hero-chip chip-report">
         <svg class="ic"><use href="#i-camera"/></svg>
@@ -408,61 +407,13 @@
 
 <!-- ===================== CONTACT ===================== -->
 <section id="contact" class="section section-contact">
-  <div class="wrap contact-inner">
-    <div class="contact-info reveal">
+  <div class="wrap">
+    <div class="contact-line-card reveal">
       <span class="sec-label" data-i18n="contactLabel">お問い合わせ</span>
-      <h2 class="sec-title" data-i18n="contactTitle">まずは、お気軽にご相談ください</h2>
-      <p data-i18n="contactLead">ご予約・ご質問など、どんなことでもお問い合わせください。通常1〜2日以内にお返事します。</p>
-      <ul class="contact-list">
-        <li>
-          <span class="ci-ic"><svg class="ic"><use href="#i-mail"/></svg></span>
-          <div><span class="ci-label" data-i18n="contactEmailLabel">メール</span>
-          <a href="mailto:mewmirus@gmail.com">mewmirus@gmail.com</a></div>
-        </li>
-        <li>
-          <span class="ci-ic ci-line"><svg class="ic"><use href="#i-line"/></svg></span>
-          <div><span class="ci-label" data-i18n="contactLineLabel">LINE</span>
-          <a href="https://lin.ee/t4dVKcp" target="_blank" rel="noopener" data-i18n="contactLineCta">友だち追加・ご相談はこちら</a></div>
-        </li>
-        <li>
-          <span class="ci-ic"><svg class="ic"><use href="#i-pin"/></svg></span>
-          <div><span class="ci-label" data-i18n="contactAreaLabel">対応エリア</span>
-          <span data-i18n="contactArea">大阪市内</span></div>
-        </li>
-      </ul>
-    </div>
-
-    <div class="contact-form-wrap reveal">
-      <!-- Netlify Forms: submissions appear in the Netlify dashboard. Add an email notification to mewmirus@gmail.com in Netlify → Forms → Notifications. -->
-      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form" id="contactForm">
-        <input type="hidden" name="form-name" value="contact" />
-        <p class="hp-field" aria-hidden="true"><label>このフィールドは空のままにしてください<input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
-
-        <div class="field">
-          <label for="cf-name" data-i18n="formName">お名前 <span class="req">*</span></label>
-          <input id="cf-name" name="name" type="text" required autocomplete="name" />
-        </div>
-        <div class="field-row">
-          <div class="field">
-            <label for="cf-email" data-i18n="formEmail">メールアドレス <span class="req">*</span></label>
-            <input id="cf-email" name="email" type="email" required autocomplete="email" />
-          </div>
-          <div class="field">
-            <label for="cf-tel" data-i18n="formTel">電話番号（任意）</label>
-            <input id="cf-tel" name="tel" type="tel" autocomplete="tel" />
-          </div>
-        </div>
-        <div class="field">
-          <label for="cf-cats" data-i18n="formCats">猫ちゃんの頭数（任意）</label>
-          <input id="cf-cats" name="cats" type="text" />
-        </div>
-        <div class="field">
-          <label for="cf-msg" data-i18n="formMsg">ご相談内容 <span class="req">*</span></label>
-          <textarea id="cf-msg" name="message" rows="4" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary btn-block" data-i18n="formSubmit">送信する <svg class="ic"><use href="#i-arrow"/></svg></button>
-        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
-      </form>
+      <h2 class="sec-title" data-i18n="contactTitle">LINEでお気軽にご相談ください</h2>
+      <p data-i18n="contactLead">ご予約・ご質問は、LINEからどうぞ。友だち追加して、メッセージを送るだけ。お返事は通常1〜2日以内です。</p>
+      <a href="https://lin.ee/t4dVKcp" target="_blank" rel="noopener" class="btn btn-line btn-line-big" data-i18n="lineCtaBig"><svg class="ic"><use href="#i-line"/></svg> LINEで友だち追加・ご相談</a>
+      <p class="contact-area-note"><svg class="ic"><use href="#i-pin"/></svg> <span data-i18n="contactAreaLabel">対応エリア</span>：<span data-i18n="contactArea">大阪市内</span></p>
     </div>
   </div>
 </section>
@@ -495,7 +446,7 @@
   </div>
 </footer>
 
-<script src="js/i18n.js?v=20260630m"></script>
-<script src="js/main.js?v=20260630m"></script>
+<script src="js/i18n.js?v=20260630n"></script>
+<script src="js/main.js?v=20260630n"></script>
 </body>
 </html>

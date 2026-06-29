@@ -12,7 +12,7 @@ registration number are copied from the reference site.
 
 ## Confirmed requirements
 - **Name:** ねこみるキャットシッター / Nekomiru Cat Sitter
-- **Email:** mewmirus@gmail.com (contact form delivery + displayed)
+- **Email:** mewmirus@gmail.com (back-office only — NOT displayed on site; contact is LINE-only as of 2026-06-30)
 - **LINE:** https://lin.ee/t4dVKcp (official add-friend link; the LINE ID is not shown publicly)
 - **Service area:** 大阪市内 (within Osaka City)
 - **Pricing** (per client request — same tiers as reference, daily rate changed to ¥3,500):
@@ -44,7 +44,7 @@ Simple, professional, readable. Per client: near-white **cream** background, **b
 
 ## Tech approach
 - Plain static site (HTML + custom CSS + vanilla JS). No framework, no build step, no database.
-- **Contact form:** Netlify Forms (`data-netlify`), honeypot spam field, submissions emailable to mewmirus@gmail.com.
+- **Contact:** LINE only — a prominent "友だち追加・ご相談" button to `https://lin.ee/t4dVKcp`. (The email display and Netlify contact form were removed 2026-06-30 per client.)
 - Bilingual via a `data-i18n` dictionary populated on load; toggle updates text + `<html lang>` + `<title>`.
 - Deploy: GitHub repo → Netlify (publish root). Show the `*.netlify.app` preview URL.
 
