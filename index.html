@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ねこみるキャットシッター｜大阪市内の猫専門ペットシッター</title>
+  <meta name="description" content="ねこみるキャットシッターは大阪市内専門の猫シッター。女性スタッフのみ・猫専門・毎回お写真付きでご報告。おうちでいつものまま、大切な猫ちゃんをお世話します。" />
+  <meta name="theme-color" content="#FAF4EA" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ねこみるキャットシッター｜大阪市内の猫専門ペットシッター" />
+  <meta property="og:description" content="女性スタッフのみ・猫専門・毎回お写真付きでご報告。大阪市内の猫ちゃんをおうちでお世話します。" />
+  <meta property="og:locale" content="ja_JP" />
+
+  <!-- Fonts: Fraunces (soft serif) + Zen Maru Gothic (rounded JP headings) + Zen Kaku Gothic New (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ===================== SVG ICON SPRITE ===================== -->
+<svg width="0" height="0" aria-hidden="true" style="position:absolute">
+  <symbol id="i-paw" viewBox="0 0 24 24">
+    <ellipse cx="12" cy="16" rx="5.2" ry="4.2" fill="currentColor"/>
+    <ellipse cx="6.5" cy="10" rx="2" ry="2.6" fill="currentColor"/>
+    <ellipse cx="17.5" cy="10" rx="2" ry="2.6" fill="currentColor"/>
+    <ellipse cx="10" cy="6.6" rx="1.7" ry="2.3" fill="currentColor"/>
+    <ellipse cx="14" cy="6.6" rx="1.7" ry="2.3" fill="currentColor"/>
+  </symbol>
+  <symbol id="i-woman" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="7" r="3.4"/>
+    <path d="M5.5 20c0-3.6 2.9-6.5 6.5-6.5s6.5 2.9 6.5 6.5"/>
+    <path d="M8.8 5.2C9.6 3.1 11 2.4 12 2.4s2.4.7 3.2 2.8"/>
+  </symbol>
+  <symbol id="i-cat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 9 4 3l4.5 3M19 9l1-6-4.5 3"/>
+    <path d="M5 9.5C5 14 8 17.5 12 17.5S19 14 19 9.5"/>
+    <path d="M9.5 11h.01M14.5 11h.01"/>
+    <path d="M12 13.2l-1 1h2z"/>
+  </symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 8.5A1.5 1.5 0 0 1 4.5 7h2L8 5h8l1.5 2h2A1.5 1.5 0 0 1 21 8.5v9A1.5 1.5 0 0 1 19.5 19h-15A1.5 1.5 0 0 1 3 17.5z"/>
+    <circle cx="12" cy="13" r="3.3"/>
+  </symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 21c4-4.5 7-7.8 7-11a7 7 0 1 0-14 0c0 3.2 3 6.5 7 11z"/>
+    <circle cx="12" cy="10" r="2.4"/>
+  </symbol>
+  <symbol id="i-bowl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 12h18a9 9 0 0 1-18 0z"/>
+    <path d="M7 8.5c0-1.5 1-2.5 2.4-2.5"/>
+    <path d="M12 8c0-2 1.2-3 2.6-3"/>
+  </symbol>
+  <symbol id="i-litter" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 9h16l-1.5 9.5a1.5 1.5 0 0 1-1.5 1.3H7a1.5 1.5 0 0 1-1.5-1.3z"/>
+    <path d="M4 9 6 5h12l2 4"/>
+    <path d="M9.5 13l1.5 1.5L9.5 16M14.5 13 13 14.5 14.5 16"/>
+  </symbol>
+  <symbol id="i-health" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 12h3l2-4 3 8 2.5-6 1.5 2h6"/>
+  </symbol>
+  <symbol id="i-yarn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="12" r="7.5"/>
+    <path d="M5.5 8.5 16 19M4 13 11.5 20.5M8 4.2 19 15.5M14 3.8 18.8 9"/>
+  </symbol>
+  <symbol id="i-vet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 21c4-4.5 7-7.5 7-11a7 7 0 1 0-14 0c0 3.5 3 6.5 7 11z"/>
+    <path d="M12 6.5v5M9.5 9h5"/>
+  </symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="5" width="18" height="14" rx="2.5"/>
+    <path d="m3.5 7 8.5 6 8.5-6"/>
+  </symbol>
+  <symbol id="i-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 11c0 3.6-4 6.5-9 6.5-1 0-1.9-.1-2.8-.3-1.2.8-2.7 1.5-4.2 1.8.5-1 .9-2 1.1-3C4.1 14.8 3 13 3 11c0-3.6 4-6.5 9-6.5s9 2.9 9 6.5Z"/>
+    <path d="M9 11h.01M12 11h.01M15 11h.01"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12.5 5 5 11-11"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+</svg>
+
+<a href="#main" class="skip-link" data-i18n="skip">本文へスキップ</a>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand" aria-label="ねこみるキャットシッター ホーム">
+      <span class="brand-mark"><svg class="ic"><use href="#i-cat"/></svg></span>
+      <span class="brand-text">
+        <span class="brand-jp" data-i18n="brand">ねこみる</span>
+        <span class="brand-sub" data-i18n="brandSub">CAT SITTER · OSAKA</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="メインメニュー">
+      <a href="#about" data-i18n="navAbout">安心ポイント</a>
+      <a href="#services" data-i18n="navServices">サービス</a>
+      <a href="#pricing" data-i18n="navPricing">料金</a>
+      <a href="#flow" data-i18n="navFlow">ご利用の流れ</a>
+      <a href="#faq" data-i18n="navFaq">よくある質問</a>
+      <a href="#voices" data-i18n="navVoices">お客様の声</a>
+      <a href="#contact" class="nav-cta" data-i18n="navContact">お問い合わせ</a>
+    </nav>
+
+    <div class="header-tools">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
+        <span class="lang-opt is-on" data-lang="ja">JP</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-opt" data-lang="en">EN</span>
+      </button>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="メニュー" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="hero-grain" aria-hidden="true"></div>
+  <span class="blob blob-1" aria-hidden="true"></span>
+  <span class="blob blob-2" aria-hidden="true"></span>
+  <svg class="float-paw fp1" aria-hidden="true"><use href="#i-paw"/></svg>
+  <svg class="float-paw fp2" aria-hidden="true"><use href="#i-paw"/></svg>
+  <svg class="float-paw fp3" aria-hidden="true"><use href="#i-paw"/></svg>
+
+  <div class="wrap hero-inner">
+    <div class="hero-copy reveal">
+      <span class="eyebrow" data-i18n="heroEyebrow">大阪市内 ・ 猫専門 ・ 女性スタッフ</span>
+      <h1 class="hero-title">
+        <span data-i18n="heroTitle1">猫ちゃんは、</span>
+        <span class="hl" data-i18n="heroTitle2">おうちがいちばん。</span>
+      </h1>
+      <p class="hero-lead" data-i18n="heroLead">お留守のあいだも、いつものお部屋で。大阪市内専門の猫シッターが、やさしくお世話して、毎回お写真付きでご報告します。</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary" data-i18n="heroCta1">お問い合わせ <svg class="ic"><use href="#i-arrow"/></svg></a>
+        <a href="https://line.me/R/ti/p/%40488shssp" target="_blank" rel="noopener" class="btn btn-line" data-i18n="heroCta2">LINEで相談</a>
+      </div>
+      <ul class="hero-badges">
+        <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="heroBadge1">女性スタッフのみ</span></li>
+        <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="heroBadge2">猫専門</span></li>
+        <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="heroBadge3">毎回お写真でご報告</span></li>
+      </ul>
+    </div>
+
+    <div class="hero-art reveal">
+      <!-- Photo placeholder frame: replace .hero-photo background with a real cat photo later -->
+      <div class="hero-photo" role="img" aria-label="お昼寝する猫ちゃん（お写真は後ほど差し替え）">
+        <svg class="sleeping-cat" viewBox="0 0 240 160" aria-hidden="true">
+          <ellipse cx="120" cy="135" rx="92" ry="16" fill="#00000010"/>
+          <path d="M44 120c-6-34 18-58 50-58 18 0 30 8 40 8 26 0 56 14 60 40 3 18-10 26-30 26H66c-16 0-20-8-22-16z" fill="#E07A4E"/>
+          <path d="M150 78c8-6 20-8 30-4-4 8-14 12-24 12z" fill="#C45E36"/>
+          <path d="M196 116c10 2 18-2 22-10-8-4-18-2-24 4z" fill="#C45E36"/>
+          <circle cx="74" cy="98" r="3" fill="#3A2D26"/>
+          <path d="M64 104q6 5 14 1" fill="none" stroke="#3A2D26" stroke-width="2.4" stroke-linecap="round"/>
+          <path d="M58 98l-14-3M58 102l-14 2" stroke="#FFFCF6" stroke-width="2" stroke-linecap="round"/>
+          <path d="M70 92c4-3 9-3 13 0" fill="none" stroke="#FFFCF6" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="photo-tag" data-i18n="photoTag">お写真はこちらに差し替えできます</span>
+      </div>
+      <div class="hero-chip chip-report">
+        <svg class="ic"><use href="#i-camera"/></svg>
+        <span data-i18n="heroChip">「今日も元気です」</span>
+      </div>
+    </div>
+  </div>
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 60C240 90 480 20 720 30s480 70 720 40v-90H0z" fill="#FFFCF6"/></svg>
+  </div>
+</section>
+
+<!-- ===================== ABOUT / TRUST ===================== -->
+<section id="about" class="section section-paper">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-label" data-i18n="aboutLabel">安心ポイント</span>
+      <h2 class="sec-title" data-i18n="aboutTitle">「うちの子をまかせて大丈夫？」に、しっかりお応えします</h2>
+    </div>
+    <div class="grid-4">
+      <article class="card reveal">
+        <span class="card-ic"><svg class="ic"><use href="#i-woman"/></svg></span>
+        <h3 data-i18n="about1Title">女性スタッフのみ</h3>
+        <p data-i18n="about1Body">お伺いするのはやさしい女性スタッフだけ。猫ちゃんもご家族も安心してお任せいただけます。</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ic"><svg class="ic"><use href="#i-cat"/></svg></span>
+        <h3 data-i18n="about2Title">猫専門だから安心</h3>
+        <p data-i18n="about2Body">犬はお預かりしません。猫の気持ちと習性を第一に考えた、猫専門のお世話です。</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ic"><svg class="ic"><use href="#i-camera"/></svg></span>
+        <h3 data-i18n="about3Title">毎回お写真でご報告</h3>
+        <p data-i18n="about3Body">お世話のたびに、猫ちゃんのようすをお写真とメッセージでお届け。離れていても安心です。</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ic"><svg class="ic"><use href="#i-pin"/></svg></span>
+        <h3 data-i18n="about4Title">大阪市内に対応</h3>
+        <p data-i18n="about4Body">大阪市内ならどこでもお伺いします。ご旅行・ご出張・里帰りなど、さまざまな場面で。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section id="services" class="section">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-label" data-i18n="svcLabel">サービス内容</span>
+      <h2 class="sec-title" data-i18n="svcTitle">いつもの暮らしを、そのまま守るお世話</h2>
+      <p class="sec-lead" data-i18n="svcLead">ごはんからトイレ、健康チェック、遊びまで。猫ちゃんがリラックスして過ごせるよう、ていねいにお世話します。</p>
+    </div>
+    <div class="grid-3">
+      <article class="svc reveal"><span class="svc-ic"><svg class="ic"><use href="#i-bowl"/></svg></span>
+        <h3 data-i18n="svc1Title">ごはん・お水</h3>
+        <p data-i18n="svc1Body">いつものごはんを、いつもの時間に。新鮮なお水へのお取り替えもおまかせください。</p></article>
+      <article class="svc reveal"><span class="svc-ic"><svg class="ic"><use href="#i-litter"/></svg></span>
+        <h3 data-i18n="svc2Title">トイレ掃除</h3>
+        <p data-i18n="svc2Body">猫ちゃんが気持ちよく過ごせるよう、トイレをきれいに。体調の変化もあわせて確認します。</p></article>
+      <article class="svc reveal"><span class="svc-ic"><svg class="ic"><use href="#i-health"/></svg></span>
+        <h3 data-i18n="svc3Title">健康チェック</h3>
+        <p data-i18n="svc3Body">食欲・ようす・お部屋の様子をやさしく観察。気になることはすぐにご連絡します。</p></article>
+      <article class="svc reveal"><span class="svc-ic"><svg class="ic"><use href="#i-yarn"/></svg></span>
+        <h3 data-i18n="svc4Title">遊び・ふれあい</h3>
+        <p data-i18n="svc4Body">その子のペースに合わせて、遊んだり、そっと見守ったり。さみしくないよう寄り添います。</p></article>
+      <article class="svc reveal"><span class="svc-ic"><svg class="ic"><use href="#i-camera"/></svg></span>
+        <h3 data-i18n="svc5Title">お写真付きご報告</h3>
+        <p data-i18n="svc5Body">お世話のたびに、写真とメッセージでようすをご報告。スマホでいつでも確認できます。</p></article>
+      <article class="svc reveal"><span class="svc-ic"><svg class="ic"><use href="#i-vet"/></svg></span>
+        <h3 data-i18n="svc6Title">通院サポート</h3>
+        <p data-i18n="svc6Body">かかりつけ医への通院もサポート。猫ちゃんの状態によってはお受けできない場合があります。</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRICING ===================== -->
+<section id="pricing" class="section section-cream">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-label" data-i18n="priceLabel">料金</span>
+      <h2 class="sec-title" data-i18n="priceTitle">わかりやすい、シンプルな料金</h2>
+      <p class="sec-lead" data-i18n="priceLead">大阪市内の交通費込み。ご不明な点はお気軽にお問い合わせください。</p>
+    </div>
+
+    <div class="price-grid">
+      <article class="price-card price-feature reveal">
+        <span class="price-tag" data-i18n="priceBest">いちばん人気</span>
+        <h3 data-i18n="price1Title">日々のお世話</h3>
+        <p class="price-desc" data-i18n="price1Desc">給餌・トイレ・健康チェック・遊び・お写真付きご報告</p>
+        <div class="price-amount"><span class="yen">¥</span>3,500<span class="per" data-i18n="priceUnit">／1回</span></div>
+        <p class="price-note" data-i18n="price1Note">猫5匹まで／大阪市内の交通費込み</p>
+      </article>
+
+      <article class="price-card reveal">
+        <h3 data-i18n="price2Title">通院サポート</h3>
+        <p class="price-desc" data-i18n="price2Desc">かかりつけ医への通院に付き添います</p>
+        <div class="price-amount"><span class="yen">¥</span>3,000<span class="per" data-i18n="priceHour">／時間</span></div>
+        <p class="price-note" data-i18n="price2Note">猫ちゃんの状態により応相談</p>
+      </article>
+
+      <article class="price-card reveal">
+        <h3 data-i18n="price3Title">その他カスタムサポート</h3>
+        <p class="price-desc" data-i18n="price3Desc">植物の水やりなど、ご希望に合わせて</p>
+        <div class="price-amount"><span class="yen">¥</span>2,000<span class="per" data-i18n="priceFrom">〜</span></div>
+        <p class="price-note" data-i18n="price3Note">内容に応じてご相談ください</p>
+      </article>
+
+      <article class="price-card price-free reveal">
+        <h3 data-i18n="price4Title">お電話でのご相談</h3>
+        <p class="price-desc" data-i18n="price4Desc">ご利用中のお客様向け</p>
+        <div class="price-amount price-amount-free" data-i18n="priceFree">無料</div>
+        <p class="price-note" data-i18n="price4Note">いつでもお気軽にどうぞ</p>
+      </article>
+    </div>
+
+    <p class="price-cancel reveal">
+      <svg class="ic"><use href="#i-check"/></svg>
+      <span data-i18n="priceCancel">キャンセル料：ご利用日の15日前以内は50％、10日前以内は100％を申し受けます。料金は税込表示です。</span>
+    </p>
+  </div>
+</section>
+
+<!-- ===================== FLOW ===================== -->
+<section id="flow" class="section section-paper">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-label" data-i18n="flowLabel">ご利用の流れ</span>
+      <h2 class="sec-title" data-i18n="flowTitle">はじめてでも、安心の流れ</h2>
+    </div>
+
+    <div class="flow-cols">
+      <div class="flow-col reveal">
+        <h3 class="flow-col-title"><span class="flow-pill" data-i18n="flowFirstPill">はじめての方</span></h3>
+        <ol class="steps">
+          <li><span class="step-no">1</span><div><h4 data-i18n="flowF1T">お問い合わせ</h4><p data-i18n="flowF1B">メール・フォーム・LINEからお気軽にご連絡ください。</p></div></li>
+          <li><span class="step-no">2</span><div><h4 data-i18n="flowF2T">ご相談</h4><p data-i18n="flowF2B">ご不安な点やご希望を、お電話などでていねいにお伺いします。</p></div></li>
+          <li><span class="step-no">3</span><div><h4 data-i18n="flowF3T">顔合わせ</h4><p data-i18n="flowF3B">スタッフがご自宅へ伺い、猫ちゃんと初対面。相性や環境を確認します。</p></div></li>
+          <li><span class="step-no">4</span><div><h4 data-i18n="flowF4T">ご契約・鍵のお預かり</h4><p data-i18n="flowF4B">猫ちゃんの情報を伺い、鍵をお預かりします（料金は前払い）。</p></div></li>
+          <li><span class="step-no">5</span><div><h4 data-i18n="flowF5T">お世話開始</h4><p data-i18n="flowF5B">毎回お写真付きでご報告。最終日に鍵をご返却して終了です。</p></div></li>
+        </ol>
+      </div>
+
+      <div class="flow-col reveal">
+        <h3 class="flow-col-title"><span class="flow-pill flow-pill-alt" data-i18n="flowRepeatPill">リピーターの方</span></h3>
+        <ol class="steps">
+          <li><span class="step-no">1</span><div><h4 data-i18n="flowR1T">ご予約</h4><p data-i18n="flowR1B">日程が決まりましたら、お早めにご連絡ください。</p></div></li>
+          <li><span class="step-no">2</span><div><h4 data-i18n="flowR2T">鍵・お支払い</h4><p data-i18n="flowR2B">事前に鍵のお預かりとお支払いを確認します。</p></div></li>
+          <li><span class="step-no">3</span><div><h4 data-i18n="flowR3T">お世話開始</h4><p data-i18n="flowR3B">いつものお世話を、いつものようにご報告とともに。</p></div></li>
+        </ol>
+        <div class="flow-aside">
+          <svg class="ic"><use href="#i-paw"/></svg>
+          <p data-i18n="flowAside">2回目以降は、顔合わせを省いてスムーズにご利用いただけます。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section id="faq" class="section">
+  <div class="wrap wrap-narrow">
+    <div class="sec-head reveal">
+      <span class="sec-label" data-i18n="faqLabel">よくある質問</span>
+      <h2 class="sec-title" data-i18n="faqTitle">ご利用前の、よくあるご質問</h2>
+    </div>
+    <div class="faq-list reveal">
+      <details class="faq-item"><summary><span data-i18n="faqQ1">鍵は預けるのですか？</span><svg class="ic faq-plus"><use href="#i-plus"/></svg></summary><p data-i18n="faqA1">はい。お世話の期間中は鍵をお預かりします。最終日にドアポストへのご返却、または郵送（別途送料）でお返しします。</p></details>
+      <details class="faq-item"><summary><span data-i18n="faqQ2">1日に何回来てもらえますか？</span><svg class="ic faq-plus"><use href="#i-plus"/></svg></summary><p data-i18n="faqA2">1日1回が基本ですが、1日2回などのご希望にも対応できます。猫ちゃんの頭数やご様子に合わせてご相談ください。</p></details>
+      <details class="faq-item"><summary><span data-i18n="faqQ3">写真は毎回もらえますか？</span><svg class="ic faq-plus"><use href="#i-plus"/></svg></summary><p data-i18n="faqA3">はい。お世話のたびに、猫ちゃんのお写真とメッセージをお送りします。離れていてもようすが分かるので安心です。</p></details>
+      <details class="faq-item"><summary><span data-i18n="faqQ4">急なお願いもできますか？</span><svg class="ic faq-plus"><use href="#i-plus"/></svg></summary><p data-i18n="faqA4">空き状況によっては当日・前日のご依頼も承ります。まずはお電話かLINEでお問い合わせください。</p></details>
+      <details class="faq-item"><summary><span data-i18n="faqQ5">猫以外のお世話（植物の水やりなど）も頼めますか？</span><svg class="ic faq-plus"><use href="#i-plus"/></svg></summary><p data-i18n="faqA5">はい、カスタムサポートとして対応可能です。郵便物の確認や植物の水やりなど、お気軽にご相談ください。</p></details>
+      <details class="faq-item"><summary><span data-i18n="faqQ6">多頭飼いでも大丈夫ですか？</span><svg class="ic faq-plus"><use href="#i-plus"/></svg></summary><p data-i18n="faqA6">日々のお世話は猫5匹まで同一料金で承ります。6匹以上の場合はご相談ください。</p></details>
+      <details class="faq-item"><summary><span data-i18n="faqQ7">急に体調が悪くなったら？</span><svg class="ic faq-plus"><use href="#i-plus"/></svg></summary><p data-i18n="faqA7">すぐにご連絡し、ご指定のかかりつけ医への通院サポートなど、できる限りの対応をします。事前に緊急時のご希望を伺っておきます。</p></details>
+      <details class="faq-item"><summary><span data-i18n="faqQ8">留守中の家の中を見られるのが不安です。</span><svg class="ic faq-plus"><use href="#i-plus"/></svg></summary><p data-i18n="faqA8">お世話に必要な範囲のみでお伺いします。立ち入ってほしくない場所など、事前にお気軽にお伝えください。</p></details>
+      <details class="faq-item"><summary><span data-i18n="faqQ9">対応エリアはどこですか？</span><svg class="ic faq-plus"><use href="#i-plus"/></svg></summary><p data-i18n="faqA9">大阪市内に対応しています。市外の場合も一度ご相談ください。</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== VOICES ===================== -->
+<section id="voices" class="section section-cream">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-label" data-i18n="voicesLabel">お客様の声</span>
+      <h2 class="sec-title" data-i18n="voicesTitle">ご利用いただいたお客様より</h2>
+      <p class="sec-lead sample-note" data-i18n="voicesNote">※ 以下はサンプルです。実際のお客様の声に差し替えできます。</p>
+    </div>
+    <div class="grid-3">
+      <figure class="voice reveal">
+        <div class="voice-stars" aria-hidden="true">★★★★★</div>
+        <blockquote data-i18n="voice1">毎回お写真が届くので、出張中もまったく心配いりませんでした。帰宅したら、いつもどおりのんびりしていてホッとしました。</blockquote>
+        <figcaption data-i18n="voice1By">— 大阪市・Aさん（サンプル）</figcaption>
+      </figure>
+      <figure class="voice reveal">
+        <div class="voice-stars" aria-hidden="true">★★★★★</div>
+        <blockquote data-i18n="voice2">人見知りのうちの子が、初回の顔合わせですっかり安心していました。女性スタッフさんだけというのも決め手でした。</blockquote>
+        <figcaption data-i18n="voice2By">— 大阪市・Mさん（サンプル）</figcaption>
+      </figure>
+      <figure class="voice reveal">
+        <div class="voice-stars" aria-hidden="true">★★★★★</div>
+        <blockquote data-i18n="voice3">通院のサポートまでお願いできて本当に助かりました。猫のことをよく分かってくださる方で、安心しておまかせできます。</blockquote>
+        <figcaption data-i18n="voice3By">— 大阪市・Tさん（サンプル）</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="section section-contact">
+  <span class="blob blob-3" aria-hidden="true"></span>
+  <div class="wrap contact-inner">
+    <div class="contact-info reveal">
+      <span class="sec-label" data-i18n="contactLabel">お問い合わせ</span>
+      <h2 class="sec-title" data-i18n="contactTitle">まずは、お気軽にご相談ください</h2>
+      <p data-i18n="contactLead">ご予約・ご質問など、どんなことでもお問い合わせください。通常1〜2日以内にお返事します。</p>
+      <ul class="contact-list">
+        <li>
+          <span class="ci-ic"><svg class="ic"><use href="#i-mail"/></svg></span>
+          <div><span class="ci-label" data-i18n="contactEmailLabel">メール</span>
+          <a href="mailto:mewmirus@gmail.com">mewmirus@gmail.com</a></div>
+        </li>
+        <li>
+          <span class="ci-ic ci-line"><svg class="ic"><use href="#i-line"/></svg></span>
+          <div><span class="ci-label" data-i18n="contactLineLabel">LINE</span>
+          <a href="https://line.me/R/ti/p/%40488shssp" target="_blank" rel="noopener">@488shssp</a></div>
+        </li>
+        <li>
+          <span class="ci-ic"><svg class="ic"><use href="#i-pin"/></svg></span>
+          <div><span class="ci-label" data-i18n="contactAreaLabel">対応エリア</span>
+          <span data-i18n="contactArea">大阪市内</span></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact-form-wrap reveal">
+      <!-- Netlify Forms: submissions appear in the Netlify dashboard. Add an email notification to mewmirus@gmail.com in Netlify → Forms → Notifications. -->
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form" id="contactForm">
+        <input type="hidden" name="form-name" value="contact" />
+        <p class="hp-field" aria-hidden="true"><label>このフィールドは空のままにしてください<input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
+
+        <div class="field">
+          <label for="cf-name" data-i18n="formName">お名前 <span class="req">*</span></label>
+          <input id="cf-name" name="name" type="text" required autocomplete="name" />
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="cf-email" data-i18n="formEmail">メールアドレス <span class="req">*</span></label>
+            <input id="cf-email" name="email" type="email" required autocomplete="email" />
+          </div>
+          <div class="field">
+            <label for="cf-tel" data-i18n="formTel">電話番号（任意）</label>
+            <input id="cf-tel" name="tel" type="tel" autocomplete="tel" />
+          </div>
+        </div>
+        <div class="field">
+          <label for="cf-cats" data-i18n="formCats">猫ちゃんの頭数（任意）</label>
+          <input id="cf-cats" name="cats" type="text" />
+        </div>
+        <div class="field">
+          <label for="cf-msg" data-i18n="formMsg">ご相談内容 <span class="req">*</span></label>
+          <textarea id="cf-msg" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" data-i18n="formSubmit">送信する <svg class="ic"><use href="#i-arrow"/></svg></button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark"><svg class="ic"><use href="#i-cat"/></svg></span>
+      <div>
+        <p class="footer-name" data-i18n="footerName">ねこみるキャットシッター</p>
+        <p class="footer-tag" data-i18n="footerTag">大阪市内の猫専門ペットシッター</p>
+      </div>
+    </div>
+    <nav class="footer-nav" aria-label="フッターメニュー">
+      <a href="#about" data-i18n="navAbout">安心ポイント</a>
+      <a href="#services" data-i18n="navServices">サービス</a>
+      <a href="#pricing" data-i18n="navPricing">料金</a>
+      <a href="#flow" data-i18n="navFlow">ご利用の流れ</a>
+      <a href="#faq" data-i18n="navFaq">よくある質問</a>
+      <a href="#contact" data-i18n="navContact">お問い合わせ</a>
+    </nav>
+    <!-- 動物取扱業登録番号 placeholder — add here once registered:
+    <p class="footer-reg">第一種動物取扱業登録番号：（取得後にこちらへ記載）</p> -->
+  </div>
+  <div class="footer-bar">
+    <p>© <span id="year">2026</span> ねこみるキャットシッター / Nekomiru Cat Sitter</p>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
