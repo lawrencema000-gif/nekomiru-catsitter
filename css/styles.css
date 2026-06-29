@@ -268,6 +268,12 @@ html[lang="ja"] .hero-title .hl{ white-space:nowrap; }
 .price-amount .yen{ font-size:1.2rem; vertical-align:.55em; margin-right:.05em; color:var(--ginger-deep); }
 .price-amount .per{ font-family:var(--font-body); font-size:.8rem; font-weight:500; color:var(--ink-soft); margin-left:.2em; }
 .price-amount-free{ color:var(--sage-deep); }
+.price-freqs{ margin-top:auto; display:flex; flex-direction:column; gap:10px; padding-top:6px; }
+.freq{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; padding:11px 15px; background:var(--cream); border:1px solid var(--line-color); border-radius:14px; }
+.price-feature .freq{ background:#FFF7EF; border-color:var(--ginger-soft); }
+.freq-label{ font-family:var(--font-head); font-weight:700; font-size:.82rem; color:var(--ink); text-align:left; }
+.freq-amount{ font-family:var(--font-display); font-weight:700; font-size:1.55rem; color:var(--ink); line-height:1; white-space:nowrap; }
+.freq-amount .yen{ font-size:.78rem; vertical-align:.32em; margin-right:.04em; color:var(--ginger-deep); }
 .price-note{ color:var(--ink-soft); font-size:.8rem; margin:1rem 0 0; }
 .price-cancel{
   display:flex; align-items:flex-start; gap:.6em; justify-content:center; text-align:left;

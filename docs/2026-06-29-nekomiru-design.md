@@ -16,8 +16,8 @@ registration number are copied from the reference site.
 - **LINE:** @488shssp
 - **Service area:** 大阪市内 (within Osaka City)
 - **Pricing** (per client request — same tiers as reference, daily rate changed to ¥3,500):
-  - 日々のお世話 (daily care: feeding, litter, health check, play, report): **¥4,000 tax incl. / 45-min visit** (any number of cats — no extra charge, transport within Osaka City included)
-  - わんにゃんプラン (Cat & Dog Plan): **¥6,000 tax incl. / ~60-min visit** — cats plus a cohabiting non-walking dog; no pet limit; vaccines & flea/tick prevention required
+  - 日々のお世話 (daily care: feeding, litter, health check, play, report): once-daily **¥4,000** (≈45 min) / twice-daily (morning & evening) **¥7,000** — tax incl.; any number of cats, no extra charge; Osaka-City travel included
+  - わんにゃんプラン (Cat & Dog Plan): once-daily **¥6,000** (≈60 min) / twice-daily **¥10,000** — tax incl.; cats plus a cohabiting non-walking dog; no pet limit; vaccines & flea/tick prevention required
   - 通院サポート (vet-visit support): **¥3,000 / hour**
   - その他カスタムサポート (other custom support): **¥2,000〜**
   - お電話でのご相談 (phone consult, active clients): **無料 / free**
