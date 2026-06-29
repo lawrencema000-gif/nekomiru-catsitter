@@ -4,7 +4,7 @@
 
   const I18N = {
     docTitle: {
-      ja: "ねこみるキャットシッター｜大阪市内の猫専門ペットシッター",
+      ja: "ねこみるキャットシッター｜大阪市内・猫歴14年以上の猫専門家",
       en: "Nekomiru Cat Sitter | Cat-only pet sitting in Osaka",
     },
     skip: { ja: "本文へスキップ", en: "Skip to content" },
@@ -20,7 +20,7 @@
     navVoices: { ja: "お客様の声", en: "Voices" },
     navContact: { ja: "お問い合わせ", en: "Contact" },
 
-    heroEyebrow: { ja: "大阪市内 ・ 猫専門 ・ 女性スタッフ", en: "Osaka City · Cats only · Women staff" },
+    heroEyebrow: { ja: "大阪市内 ・ 猫歴14年以上 ・ 女性スタッフ", en: "Osaka City · 14+ yrs with cats · Women staff" },
     heroTitle1: { ja: "猫ちゃんは、", en: "Cats are" },
     heroTitle2: { ja: "おうちがいちばん。", en: "happiest at home." },
     heroLead: {
@@ -30,7 +30,7 @@
     heroCta1: { ja: "お問い合わせ", en: "Get in touch" },
     heroCta2: { ja: "LINEで相談", en: "Chat on LINE" },
     heroBadge1: { ja: "女性スタッフのみ", en: "Women staff only" },
-    heroBadge2: { ja: "猫専門", en: "Cats only" },
+    heroBadge2: { ja: "猫歴14年以上", en: "14+ years with cats" },
     heroBadge3: { ja: "毎回お写真でご報告", en: "Photo report every visit" },
     heroChip: { ja: "「今日も元気です」", en: "“Doing great today!”" },
 
@@ -38,12 +38,16 @@
     aboutTitle: { ja: "「うちの子をまかせて大丈夫？」に、しっかりお応えします", en: "Everything you need to feel at ease leaving your cat with us" },
     about1Title: { ja: "女性スタッフのみ", en: "Women staff only" },
     about1Body: { ja: "お伺いするのはやさしい女性スタッフだけ。猫ちゃんもご家族も安心してお任せいただけます。", en: "Only our gentle women staff visit your home, so both your cat and your family can relax." },
-    about2Title: { ja: "猫専門のやさしいお世話", en: "Gentle, cat-focused care" },
-    about2Body: { ja: "猫の気持ちと習性を第一に考えたお世話を。猫ちゃんと同居のわんちゃんも、わんにゃんプランで一緒にお世話します。", en: "Care built around cats' feelings and habits — and through our Cat & Dog Plan we'll also look after a cohabiting dog." },
+    about2Title: { ja: "猫歴14年以上の猫専門家", en: "A cat expert — 14+ years with cats" },
+    about2Body: { ja: "猫歴14年以上。猫の気持ちと習性を知り尽くした専門家が、ていねいにお世話します。猫ちゃんと同居のわんちゃんも、わんにゃんプランで一緒に。", en: "With 14+ years caring for cats, an expert who truly understands their needs looks after your cat. Cohabiting dogs are welcome via the Cat & Dog Plan." },
     about3Title: { ja: "毎回お写真でご報告", en: "Photo report every visit" },
     about3Body: { ja: "お世話のたびに、猫ちゃんのようすをお写真とメッセージでお届け。離れていても安心です。", en: "After each visit we send photos and a message, so you stay close even from afar." },
     about4Title: { ja: "大阪市内に対応", en: "All across Osaka City" },
     about4Body: { ja: "大阪市内ならどこでもお伺いします。ご旅行・ご出張・里帰りなど、さまざまな場面で。", en: "We visit anywhere within Osaka City — for travel, business trips, family visits and more." },
+    about5Title: { ja: "寄り添うカスタムプランも", en: "Flexible custom plans too" },
+    about5Body: { ja: "お客様と猫ちゃんに寄り添って、内容も時間もご相談に応じて自由にお決めいただけます。", en: "We tailor everything — content and timing — to you and your cat, by consultation." },
+    about6Title: { ja: "英語OK・海外の方も歓迎", en: "English OK — visitors welcome" },
+    about6Body: { ja: "英語での会話に対応しています。日本語にご不安のある方も、どうぞお気軽にご相談ください。", en: "We can chat in English, so international cat owners are warmly welcome." },
 
     svcLabel: { ja: "サービス内容", en: "Our services" },
     svcTitle: { ja: "いつもの暮らしを、そのまま守るお世話", en: "Care that keeps everyday life unchanged" },
@@ -67,8 +71,8 @@
     priceBest: { ja: "いちばん人気", en: "Most popular" },
     price1Title: { ja: "日々のお世話", en: "Daily care" },
     price1Desc: { ja: "給餌・トイレ・健康チェック・遊び・お写真付きご報告", en: "Feeding, litter, health check, play & a photo report" },
-    price1Freq1Label: { ja: "30分程度", en: "About 30 min" },
-    price1Freq2Label: { ja: "60分程度", en: "About 60 min" },
+    price1Freq1Label: { ja: "30分", en: "30 min" },
+    price1Freq2Label: { ja: "60分", en: "60 min" },
     price1Note: { ja: "税込・猫は何匹でも追加料金なし", en: "Tax included · any number of cats, no extra charge" },
     price2Title: { ja: "通院サポート", en: "Vet-visit support" },
     price2Desc: { ja: "かかりつけ医への通院に付き添います", en: "We accompany visits to your regular vet" },
@@ -86,12 +90,11 @@
     price5Tag: { ja: "猫＋わんちゃん", en: "Cats + dog" },
     price5Title: { ja: "わんにゃんプラン", en: "Cat & Dog Plan" },
     price5Desc: { ja: "猫ちゃんと同居のわんちゃんも一緒にお世話", en: "Care for your cats plus a cohabiting dog" },
-    price5Freq1Label: { ja: "30分程度", en: "About 30 min" },
-    price5Freq2Label: { ja: "60分程度", en: "About 60 min" },
+    price5Freq1Label: { ja: "30分", en: "30 min" },
+    price5Freq2Label: { ja: "60分", en: "60 min" },
     price5Note: { ja: "税込・頭数制限なし・ワクチン＆ノミダニ予防が条件", en: "Tax incl. · no pet limit · vaccines & flea/tick prevention required" },
     optTitle: { ja: "オプション：お散歩", en: "Option: Dog walk" },
     optSub: { ja: "わんにゃんプランに追加できます（税込）", en: "Add-on for the Cat & Dog Plan (tax incl.)" },
-    optWalk1: { ja: "お散歩15分", en: "15-min walk" },
     optWalk2: { ja: "お散歩30分", en: "30-min walk" },
     feeNote: { ja: "交通費：対象エリア内一律500円（税込）／エリア外は別途ご相談", en: "Travel fee: flat ¥500 within our service area (tax incl.) / outside the area by consultation" },
     kartNote: { ja: "※初回のみ、カルテ作成料 1,000円（税込）をいただきます。", en: "* A one-time chart-creation fee of ¥1,000 (tax incl.) applies on your first booking." },
@@ -162,7 +165,7 @@
 
 
     footerName: { ja: "ねこみるキャットシッター", en: "Nekomiru Cat Sitter" },
-    footerTag: { ja: "大阪市内の猫専門ペットシッター", en: "Cat-only pet sitting in Osaka City" },
+    footerTag: { ja: "大阪市内・猫歴14年以上の猫専門家", en: "Osaka cat expert — 14+ years' experience" },
 
     // Form status messages (used by main.js)
     formSending: { ja: "送信中…", en: "Sending…" },
