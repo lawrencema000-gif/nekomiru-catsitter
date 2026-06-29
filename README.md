@@ -35,5 +35,6 @@ python -m http.server 8080   # then visit http://localhost:8080
 - 💬 **LINE link** — currently points to `@488shssp`. Swap for the official `lin.ee/...` link if preferred.
 
 ## お問い合わせの受信設定 / Receiving form submissions
-Form submissions appear in **Netlify → Forms**. To get emails at `mewmirus@gmail.com`,
-add a notification under **Netlify → Site settings → Forms → Form notifications**.
+✅ **Already configured.** An email notification is active, so every submission to the
+`contact` form is emailed to `mewmirus@gmail.com`. Submissions are also archived under
+**Netlify → Forms**. (Form detection requires `ignore_html_forms=false`, which is set on this site.)
