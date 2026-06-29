@@ -390,6 +390,16 @@ a:focus-visible, button:focus-visible, summary:focus-visible,
 .footer-bar{ border-top:2px solid var(--line-color); padding:18px 0; text-align:center; }
 .footer-bar p{ margin:0; font-size:.82rem; color:var(--ink-soft); font-family:var(--font-display); }
 
+/* Floating LINE button — mobile/tablet only */
+.line-fab{ display:none; }
+@media (max-width:820px){
+  .line-fab{ display:inline-flex; align-items:center; gap:.5em; position:fixed; right:14px; bottom:14px; z-index:200;
+    background:var(--line-green); color:#fff; font-family:var(--font-head); font-weight:700; font-size:.95rem;
+    padding:.8em 1.25em; border-radius:999px; box-shadow:0 8px 22px -6px rgba(4,134,59,.55); }
+  .line-fab .ic{ width:1.3em; height:1.3em; }
+  .line-fab:active{ transform:scale(.97); }
+}
+
 /* ---------- Reveal animation (content visible by default; hidden only when JS enables animation) ---------- */
 .reveal{ transition:opacity .7s ease, transform .7s cubic-bezier(.2,.8,.3,1); }
 .js-anim .reveal{ opacity:0; transform:translateY(26px); }

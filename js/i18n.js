@@ -160,6 +160,7 @@
     contactTitle: { ja: "LINEでお気軽にご相談ください", en: "Reach us easily on LINE" },
     contactLead: { ja: "ご予約・ご質問は、LINEからどうぞ。友だち追加して、メッセージを送るだけ。お返事は通常1〜2日以内です。", en: "For bookings or questions, just message us on LINE — add us as a friend and send a message. We usually reply within 1–2 days." },
     lineCtaBig: { ja: "LINEで友だち追加・ご相談", en: "Add us on LINE & chat" },
+    fabLine: { ja: "LINEで相談", en: "Chat on LINE" },
     contactAreaLabel: { ja: "対応エリア", en: "Service area" },
     contactArea: { ja: "大阪市内", en: "Osaka City" },
 
