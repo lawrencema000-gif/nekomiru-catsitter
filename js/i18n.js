@@ -32,6 +32,7 @@
     heroBadge1: { ja: "女性のペットシッター", en: "Female pet sitter" },
     heroBadge2: { ja: "猫歴14年以上", en: "14+ years with cats" },
     heroBadge3: { ja: "毎回お写真でご報告", en: "Photo report every visit" },
+    heroBadge4: { ja: "オーダーメイドプランも可", en: "Custom plans available" },
     heroChip: { ja: "「今日も元気です」", en: "“Doing great today!”" },
 
     aboutLabel: { ja: "安心ポイント", en: "Why choose us" },
