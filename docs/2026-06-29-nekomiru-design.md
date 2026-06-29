@@ -32,12 +32,15 @@ registration number are copied from the reference site.
 - **Language:** JA + EN with a toggle (default JA, persisted in localStorage)
 - **Vibe:** gentle / warm / cat-like
 
-## Aesthetic direction — "Soft sky, professional" (light-blue) — updated 2026-06-30
-Redesigned from the original warm palette to a simple, trustworthy, professional light-blue (水色) look per client request. Iterated to add value hierarchy (avoid an all-one-blue monotone) and replace the abstract illustration with clean cat silhouettes.
-- **Palette:** white-dominant — near-white page (`#F4FAFD`), light-blue alt sections (`#E6F2F8`), crisp white cards with a subtle resting shadow. **Deep navy ink (`#143A52`)** for headings/body = trust/professional. Watery blue primary (`#15789C`, AA with white) for actions; soft-blue tints (`#D6ECF6`). LINE green kept for LINE buttons.
-- **Type:** headings in **Zen Kaku Gothic New** (clean/professional, wght 900); brand + price numbers in Zen Maru Gothic (friendly); body Zen Kaku Gothic New.
-- **Cat silhouettes:** a clean, recognizable sitting-cat silhouette (`#cat-sil`) is the hero art (replacing the abstract sleeping-cat); a large faint silhouette sits in the contact-section background. No abstract/unclear illustrations.
-- **Simplified:** no grain, blobs, floating paws, morphing hero frame, or wave divider. Calm shadows, clean rounded corners, gentle scroll reveals.
+## Aesthetic direction — "Clean cream + blue" — updated 2026-06-30
+Simple, professional, readable. Per client: near-white **cream** background, **black** body text, **blue** headings, **max 3 text colors**, thicker frame borders, no cat silhouettes/illustrations.
+- **Background:** near-white warm cream (`#FBF8F1`); soft-cream alt sections (`#F3EEE1`); white cards with a subtle resting shadow. Hero & footer also cream (consistent).
+- **Text — exactly 3 colors:** black `#1A1A1A` (body), gray `#666666` (secondary/notes), blue `#0F5E7C` (headings, links, emphasis). White text only on colored fills (buttons/pills). Icons may use blue-family accents (graphical, not counted).
+- **Headings:** larger and blue (section titles `clamp(1.85→2.6rem)`, hero `clamp(2.6→4.4rem)`).
+- **Borders:** thicker (2px) card/frame borders for clearer, more readable framing.
+- **Type:** headings Zen Kaku Gothic New 900 (clean); brand + price numbers Zen Maru Gothic; body Zen Kaku Gothic New 16.5px.
+- **Hero art:** clean photo placeholder (camera icon + "お写真はこちらに" tag) on a soft light-blue panel. No illustrations or silhouettes.
+- **Removed:** grain, blobs, floating paws, morphing frame, wave divider, cat silhouettes.
 
 ## Tech approach
 - Plain static site (HTML + custom CSS + vanilla JS). No framework, no build step, no database.
