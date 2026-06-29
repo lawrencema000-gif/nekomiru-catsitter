@@ -17,11 +17,12 @@ registration number are copied from the reference site.
 - **Service area:** 大阪市内 (within Osaka City)
 - **Pricing** (per client request — same tiers as reference, daily rate changed to ¥3,500):
   - 日々のお世話 (daily care: feeding, litter, health check, play, report): **¥4,000 tax incl. / 45-min visit** (any number of cats — no extra charge, transport within Osaka City included)
+  - わんにゃんプラン (Cat & Dog Plan): **¥6,000 tax incl. / ~60-min visit** — cats plus a cohabiting non-walking dog; no pet limit; vaccines & flea/tick prevention required
   - 通院サポート (vet-visit support): **¥3,000 / hour**
   - その他カスタムサポート (other custom support): **¥2,000〜**
   - お電話でのご相談 (phone consult, active clients): **無料 / free**
   - Cancellation: 50% within 15 days, 100% within 10 days of the booked date
-- **Trust points:** women staff only, cats only, photo report every visit
+- **Trust points:** women staff only, cat-focused (cohabiting non-walking dogs also cared for via the Cat & Dog Plan), photo report every visit
 - **Photos:** client has them — placeholders/illustrations used now, swap later
 - **Registration number:** none yet → **not displayed** (HTML placeholder kept for later). Compliance
   note delivered to client: 第一種動物取扱業 registration is legally required before operating.
