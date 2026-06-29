@@ -32,10 +32,11 @@ registration number are copied from the reference site.
 - **Language:** JA + EN with a toggle (default JA, persisted in localStorage)
 - **Vibe:** gentle / warm / cat-like
 
-## Aesthetic direction — "Quiet home warmth / おうちのぬくもり"
-- **Palette:** warm cream/oat backgrounds, ginger-apricot primary, soft sage secondary, warm-brown ink.
-- **Type:** Fraunces (soft serif, display/EN accents) + Zen Maru Gothic (rounded JP headings) + Zen Kaku Gothic New (body).
-- **Details:** hand-drawn SVG paws/whiskers/sleeping-cat, organic curved section dividers, subtle grain, soft layered shadows, large rounded corners, staggered page-load reveals.
+## Aesthetic direction — "Soft sky" (simple, light-blue) — updated 2026-06-30
+Redesigned from the original warm "Quiet home warmth" palette to a simpler, soft light-blue (水色) look per client request.
+- **Palette:** soft blue-white backgrounds (`#EFF8FC` / `#DBEEF7`), clean white cards, a watery blue primary (`#15789C`, AA with white), soft-blue tints (`#CBE9F4`), blue-grey ink (`#21404E`). LINE green kept for LINE buttons.
+- **Type:** Zen Maru Gothic (rounded headings/display) + Zen Kaku Gothic New (body). Fraunces serif dropped for a cleaner look.
+- **Simplified:** removed grain overlay, decorative blobs, floating paws, the morphing organic hero frame, and the wave divider. Calmer shadows, clean rounded corners, gentle scroll reveals retained.
 
 ## Tech approach
 - Plain static site (HTML + custom CSS + vanilla JS). No framework, no build step, no database.
