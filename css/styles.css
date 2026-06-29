@@ -3,17 +3,17 @@
    ========================================================= */
 
 :root{
-  --cream:      #EFF8FC;
-  --cream-deep: #DBEEF7;
-  --paper:      #FFFFFF;
-  --ink:        #21404E;
-  --ink-soft:   #4C6B78;
-  --ginger:     #15789C;
+  --cream:      #F4FAFD;   /* page — near-white with a hint of blue */
+  --cream-deep: #E6F2F8;   /* alt section — light blue */
+  --paper:      #FFFFFF;   /* crisp white cards */
+  --ink:        #143A52;   /* deep navy — trust / professional */
+  --ink-soft:   #4F6B79;
+  --ginger:     #15789C;   /* primary action blue */
   --ginger-deep:#0F5E7C;
-  --ginger-soft:#CBE9F4;
+  --ginger-soft:#D6ECF6;
   --sage:       #5FB0CF;
   --sage-deep:  #2A7493;
-  --line-color: #D3E5EE;
+  --line-color: #E1EAF0;
   --line-green: #04863B;
 
   --shadow-sm: 0 2px 8px rgba(40, 90, 120, .08);
@@ -25,8 +25,8 @@
   --r-lg: 30px;
   --r-xl: 42px;
 
-  --font-display: "Zen Maru Gothic", sans-serif;
-  --font-head: "Zen Maru Gothic", sans-serif;
+  --font-display: "Zen Maru Gothic", sans-serif;            /* brand + prices (friendly) */
+  --font-head: "Zen Kaku Gothic New", sans-serif;           /* headings (clean / professional) */
   --font-body: "Zen Kaku Gothic New", "Helvetica Neue", sans-serif;
 
   --maxw: 1160px;
@@ -162,7 +162,9 @@ html[lang="ja"] .hero-title .hl{ white-space:nowrap; }
   box-shadow:var(--shadow-md), inset 0 0 0 8px rgba(255,255,255,.6);
   display:grid; place-items:center; overflow:hidden;
 }
-.sleeping-cat{ width:74%; filter:drop-shadow(0 10px 16px rgba(30,90,120,.16)); }
+.cat-silhouette{ width:54%; color:var(--ginger-deep); filter:drop-shadow(0 8px 14px rgba(20,58,82,.14)); }
+.bg-cat{ position:absolute; z-index:0; pointer-events:none; color:var(--sage); opacity:.09; }
+.contact-bgcat{ right:-16px; bottom:-26px; width:300px; }
 .photo-tag{
   position:absolute; bottom:14px; left:50%; transform:translateX(-50%);
   font-family:var(--font-head); font-size:.72rem; color:var(--ginger-deep);
@@ -200,8 +202,9 @@ html[lang="ja"] .hero-title .hl{ white-space:nowrap; }
 .grid-3{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
 
 .card{
-  background:var(--cream); border:1px solid var(--line-color); border-radius:var(--r-lg);
-  padding:30px 26px; text-align:center; transition:transform .3s, box-shadow .3s, border-color .3s;
+  background:var(--paper); border:1px solid var(--line-color); border-radius:var(--r-lg);
+  padding:30px 26px; text-align:center; box-shadow:var(--shadow-sm);
+  transition:transform .3s, box-shadow .3s, border-color .3s;
 }
 .card:hover{ transform:translateY(-6px); box-shadow:var(--shadow-md); border-color:var(--ginger-soft); }
 .card-ic{
@@ -215,7 +218,7 @@ html[lang="ja"] .hero-title .hl{ white-space:nowrap; }
 .svc{
   background:var(--paper); border-radius:var(--r-md); padding:28px 26px;
   border:1px solid var(--line-color); border-left:5px solid var(--ginger);
-  transition:transform .3s, box-shadow .3s;
+  box-shadow:var(--shadow-sm); transition:transform .3s, box-shadow .3s;
 }
 .svc:hover{ transform:translateY(-5px); box-shadow:var(--shadow-md); }
 .svc-ic{ display:inline-grid; place-items:center; width:54px; height:54px; border-radius:16px;
@@ -230,7 +233,7 @@ html[lang="ja"] .hero-title .hl{ white-space:nowrap; }
 .price-card{
   position:relative; background:var(--paper); border:1px solid var(--line-color);
   border-radius:var(--r-lg); padding:34px 24px; text-align:center;
-  display:flex; flex-direction:column; transition:transform .3s, box-shadow .3s;
+  display:flex; flex-direction:column; box-shadow:var(--shadow-sm); transition:transform .3s, box-shadow .3s;
 }
 .price-card:hover{ transform:translateY(-6px); box-shadow:var(--shadow-md); }
 .price-feature{ background:linear-gradient(180deg,#fff,#EAF6FB); border-color:var(--ginger); box-shadow:var(--shadow-md); }

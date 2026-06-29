@@ -32,11 +32,12 @@ registration number are copied from the reference site.
 - **Language:** JA + EN with a toggle (default JA, persisted in localStorage)
 - **Vibe:** gentle / warm / cat-like
 
-## Aesthetic direction — "Soft sky" (simple, light-blue) — updated 2026-06-30
-Redesigned from the original warm "Quiet home warmth" palette to a simpler, soft light-blue (水色) look per client request.
-- **Palette:** soft blue-white backgrounds (`#EFF8FC` / `#DBEEF7`), clean white cards, a watery blue primary (`#15789C`, AA with white), soft-blue tints (`#CBE9F4`), blue-grey ink (`#21404E`). LINE green kept for LINE buttons.
-- **Type:** Zen Maru Gothic (rounded headings/display) + Zen Kaku Gothic New (body). Fraunces serif dropped for a cleaner look.
-- **Simplified:** removed grain overlay, decorative blobs, floating paws, the morphing organic hero frame, and the wave divider. Calmer shadows, clean rounded corners, gentle scroll reveals retained.
+## Aesthetic direction — "Soft sky, professional" (light-blue) — updated 2026-06-30
+Redesigned from the original warm palette to a simple, trustworthy, professional light-blue (水色) look per client request. Iterated to add value hierarchy (avoid an all-one-blue monotone) and replace the abstract illustration with clean cat silhouettes.
+- **Palette:** white-dominant — near-white page (`#F4FAFD`), light-blue alt sections (`#E6F2F8`), crisp white cards with a subtle resting shadow. **Deep navy ink (`#143A52`)** for headings/body = trust/professional. Watery blue primary (`#15789C`, AA with white) for actions; soft-blue tints (`#D6ECF6`). LINE green kept for LINE buttons.
+- **Type:** headings in **Zen Kaku Gothic New** (clean/professional, wght 900); brand + price numbers in Zen Maru Gothic (friendly); body Zen Kaku Gothic New.
+- **Cat silhouettes:** a clean, recognizable sitting-cat silhouette (`#cat-sil`) is the hero art (replacing the abstract sleeping-cat); a large faint silhouette sits in the contact-section background. No abstract/unclear illustrations.
+- **Simplified:** no grain, blobs, floating paws, morphing hero frame, or wave divider. Calm shadows, clean rounded corners, gentle scroll reveals.
 
 ## Tech approach
 - Plain static site (HTML + custom CSS + vanilla JS). No framework, no build step, no database.

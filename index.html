@@ -17,9 +17,9 @@
   <!-- Fonts: Zen Maru Gothic (rounded headings) + Zen Kaku Gothic New (body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="css/styles.css?v=20260630k" />
+  <link rel="stylesheet" href="css/styles.css?v=20260630l" />
 </head>
 <body>
 
@@ -82,6 +82,11 @@
   <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12.5 5 5 11-11"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
   <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+  <!-- clean sitting-cat silhouette -->
+  <symbol id="cat-sil" viewBox="0 0 200 210">
+    <path fill="currentColor" d="M58 44c-2-12-3-22 0-30 4 9 9 17 17 24 16-7 34-7 50 0 8-7 13-15 17-24 3 8 2 18 0 30 13 16 21 35 21 57 0 38-26 62-63 62h-1c-37 0-63-24-63-62 0-22 8-41 22-57Z"/>
+    <path fill="currentColor" d="M150 184c20 6 44-4 50-28 4-16 0-33-10-45 2 18-1 35-10 47-7 9-18 19-30 26Z"/>
+  </symbol>
 </svg>
 
 <a href="#main" class="skip-link" data-i18n="skip">本文へスキップ</a>
@@ -152,17 +157,8 @@
 
     <div class="hero-art reveal">
       <!-- Photo placeholder frame: replace .hero-photo background with a real cat photo later -->
-      <div class="hero-photo" role="img" aria-label="お昼寝する猫ちゃん（お写真は後ほど差し替え）">
-        <svg class="sleeping-cat" viewBox="0 0 240 160" aria-hidden="true">
-          <ellipse cx="120" cy="135" rx="92" ry="16" fill="#00000010"/>
-          <path d="M44 120c-6-34 18-58 50-58 18 0 30 8 40 8 26 0 56 14 60 40 3 18-10 26-30 26H66c-16 0-20-8-22-16z" fill="#7FB8D4"/>
-          <path d="M150 78c8-6 20-8 30-4-4 8-14 12-24 12z" fill="#5F9DBC"/>
-          <path d="M196 116c10 2 18-2 22-10-8-4-18-2-24 4z" fill="#5F9DBC"/>
-          <circle cx="74" cy="98" r="3" fill="#21404E"/>
-          <path d="M64 104q6 5 14 1" fill="none" stroke="#21404E" stroke-width="2.4" stroke-linecap="round"/>
-          <path d="M58 98l-14-3M58 102l-14 2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
-          <path d="M70 92c4-3 9-3 13 0" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
-        </svg>
+      <div class="hero-photo" role="img" aria-label="猫のシルエット（お写真は後ほど差し替えできます）">
+        <svg class="cat-silhouette" viewBox="0 0 200 210" aria-hidden="true"><use href="#cat-sil"/></svg>
         <span class="photo-tag" data-i18n="photoTag">お写真はこちらに差し替えできます</span>
       </div>
       <div class="hero-chip chip-report">
@@ -417,7 +413,7 @@
 
 <!-- ===================== CONTACT ===================== -->
 <section id="contact" class="section section-contact">
-  <span class="blob blob-3" aria-hidden="true"></span>
+  <svg class="bg-cat contact-bgcat" aria-hidden="true"><use href="#cat-sil"/></svg>
   <div class="wrap contact-inner">
     <div class="contact-info reveal">
       <span class="sec-label" data-i18n="contactLabel">お問い合わせ</span>
@@ -505,7 +501,7 @@
   </div>
 </footer>
 
-<script src="js/i18n.js?v=20260630k"></script>
-<script src="js/main.js?v=20260630k"></script>
+<script src="js/i18n.js?v=20260630l"></script>
+<script src="js/main.js?v=20260630l"></script>
 </body>
 </html>
