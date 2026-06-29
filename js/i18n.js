@@ -50,6 +50,12 @@
     about6Title: { ja: "英語OK・海外の方も歓迎", en: "English OK — visitors welcome" },
     about6Body: { ja: "英語での会話に対応しています。日本語にご不安のある方も、どうぞお気軽にご相談ください。", en: "We can chat in English, so international cat owners are warmly welcome." },
 
+    appealEyebrow: { ja: "こんなお悩み、ありませんか？", en: "Sound familiar?" },
+    appealTitle: { ja: "長いお留守番、うちの子は大丈夫…？", en: "Worried how your cat's doing while you're away?" },
+    appealBody: { ja: "「長期のお出かけだけど、ペットホテルはストレスがかかりそう。かといって、ペットシッターの連日利用は料金が高い…」。お家を空けている間、うちの子がちゃんと過ごしているか心配…。そんな方は、一度ご相談ください。", en: "Long trips away — but a pet hotel feels stressful for your cat, and daily sitter visits add up. Worried whether your cat is okay home alone? Let's talk." },
+    appealLead: { ja: "代表個人で経営・運営しているからこそ、ご家族の心配を最小限にできるよう、様々な面から全力でサポートいたします。", en: "Because the owner runs everything personally, we support you from every angle to keep your family's worries to a minimum." },
+    appealCta: { ja: "まずはLINEで相談", en: "Talk to us on LINE" },
+
     svcLabel: { ja: "サービス内容", en: "Our services" },
     svcTitle: { ja: "いつもの暮らしを、そのまま守るお世話", en: "Care that keeps everyday life unchanged" },
     svcLead: { ja: "ごはんからトイレ、健康チェック、遊びまで。猫ちゃんがリラックスして過ごせるよう、ていねいにお世話します。", en: "From meals and litter to health checks and play — gentle, careful care so your cat stays relaxed." },
