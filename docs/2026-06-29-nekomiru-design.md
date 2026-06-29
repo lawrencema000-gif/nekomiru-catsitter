@@ -13,7 +13,7 @@ registration number are copied from the reference site.
 ## Confirmed requirements
 - **Name:** ねこみるキャットシッター / Nekomiru Cat Sitter
 - **Email:** mewmirus@gmail.com (contact form delivery + displayed)
-- **LINE:** @488shssp
+- **LINE:** https://lin.ee/t4dVKcp (official add-friend link; the LINE ID is not shown publicly)
 - **Service area:** 大阪市内 (within Osaka City)
 - **Pricing** (per client request — same tiers as reference, daily rate changed to ¥3,500):
   - 日々のお世話 (daily care: feeding, litter, health check, play, report): once-daily **¥4,000** (≈45 min) / twice-daily (morning & evening) **¥7,000** — tax incl.; any number of cats, no extra charge; Osaka-City travel included

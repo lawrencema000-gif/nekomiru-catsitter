@@ -152,6 +152,7 @@
     contactLead: { ja: "ご予約・ご質問など、どんなことでもお問い合わせください。通常1〜2日以内にお返事します。", en: "Bookings, questions, anything at all — we usually reply within 1–2 days." },
     contactEmailLabel: { ja: "メール", en: "Email" },
     contactLineLabel: { ja: "LINE", en: "LINE" },
+    contactLineCta: { ja: "友だち追加・ご相談はこちら", en: "Add us on LINE & chat" },
     contactAreaLabel: { ja: "対応エリア", en: "Service area" },
     contactArea: { ja: "大阪市内", en: "Osaka City" },
 

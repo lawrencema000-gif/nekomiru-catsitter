@@ -32,7 +32,7 @@ python -m http.server 8080   # then visit http://localhost:8080
 - 📋 **動物取扱業登録番号 / Animal-handling registration number** — currently **not displayed**.
   A commented placeholder is in the footer of `index.html`; add the number once registered.
   > Note: operating a paid pet-sitting business in Japan legally requires 第一種動物取扱業 registration.
-- 💬 **LINE link** — currently points to `@488shssp`. Swap for the official `lin.ee/...` link if preferred.
+- 💬 **LINE link** — both LINE buttons point to `https://lin.ee/t4dVKcp` (official add-friend link). The LINE ID is intentionally not shown.
 
 ## お問い合わせの受信設定 / Receiving form submissions
 ✅ **Already configured.** An email notification is active, so every submission to the
