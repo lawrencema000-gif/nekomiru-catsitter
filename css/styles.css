@@ -387,8 +387,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible,
 .footer-bar{ border-top:2px solid var(--line-color); padding:18px 0; text-align:center; }
 .footer-bar p{ margin:0; font-size:.82rem; color:var(--ink-soft); font-family:var(--font-display); }
 
-/* ---------- Reveal animation ---------- */
-.reveal{ opacity:0; transform:translateY(26px); transition:opacity .7s ease, transform .7s cubic-bezier(.2,.8,.3,1); }
+/* ---------- Reveal animation (content visible by default; hidden only when JS enables animation) ---------- */
+.reveal{ transition:opacity .7s ease, transform .7s cubic-bezier(.2,.8,.3,1); }
+.js-anim .reveal{ opacity:0; transform:translateY(26px); }
 .reveal.in{ opacity:1; transform:none; }
 .grid-4 .card.reveal:nth-child(2){ transition-delay:.08s; }
 .grid-4 .card.reveal:nth-child(3){ transition-delay:.16s; }
@@ -438,5 +439,5 @@ a:focus-visible, button:focus-visible, summary:focus-visible,
 
 @media (prefers-reduced-motion:reduce){
   *{ animation:none!important; scroll-behavior:auto!important; }
-  .reveal{ opacity:1; transform:none; transition:none; }
+  .reveal, .js-anim .reveal{ opacity:1; transform:none; transition:none; }
 }
