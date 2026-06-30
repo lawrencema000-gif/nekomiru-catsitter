@@ -77,6 +77,7 @@
     priceLabel: { ja: "料金", en: "Pricing" },
     priceTitle: { ja: "わかりやすい、シンプルな料金", en: "Simple, clear pricing" },
     priceLead: { ja: "大阪市内を中心にお伺いします。ご不明な点はお気軽にお問い合わせください。", en: "We serve mainly Osaka City. Please ask us about anything unclear." },
+    priceBest: { ja: "いちばん人気", en: "Most popular" },
     price1Title: { ja: "日々のお世話", en: "Daily care" },
     price1Desc: { ja: "給餌・トイレ・健康チェック・遊び・お写真付きご報告", en: "Feeding, litter, health check, play & a photo report" },
     price1Freq1Label: { ja: "30分クイックコース", en: "30-min Quick Course" },
