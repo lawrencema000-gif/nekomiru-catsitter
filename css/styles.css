@@ -257,6 +257,7 @@ html[lang="ja"] .hero-title .hl{ white-space:nowrap; }
 .price-amount .yen{ font-size:1.2rem; vertical-align:.55em; margin-right:.05em; color:var(--ginger-deep); }
 .price-amount .per{ font-family:var(--font-body); font-size:.8rem; font-weight:500; color:var(--ink-soft); margin-left:.2em; }
 .price-amount-free{ color:var(--ginger-deep); }
+.price-tax{ font-size:.6rem; font-weight:500; color:var(--ink-soft); margin-right:.35em; vertical-align:.22em; letter-spacing:0; }
 .price-freqs{ margin-top:auto; display:flex; flex-direction:column; gap:10px; padding-top:6px; }
 .freq{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; padding:11px 15px; background:var(--cream); border:2px solid var(--line-color); border-radius:14px; }
 .price-feature .freq{ background:#FBF5EA; border-color:var(--ginger-soft); }
