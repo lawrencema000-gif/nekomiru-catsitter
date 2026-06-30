@@ -53,7 +53,7 @@
     appealEyebrow: { ja: "こんなお悩み、ありませんか？", en: "Sound familiar?" },
     appealTitle: { ja: "長いお留守番、うちの子は大丈夫…？", en: "Worried how your cat's doing while you're away?" },
     appealBody: { ja: "「長期のお出かけだけど、環境の変化が苦手でペットホテルでのストレスが心配。かといって、ペットシッターの連日利用は料金が高い…」。お留守番の間、万が一のことがないか心配…。そんな方は、一度ご相談ください。", en: "Long trips away — but your cat isn't good with change, so a pet hotel could be stressful, and daily sitter visits add up. Worried something might go wrong while no one's home? Let's talk." },
-    appealBody2: { ja: "エアコン、自動餌やり機、自動給水機、自動トイレ、その他スマート家電が止まってしまったら…。考えられる懸念点は、たくさんあります。", en: "What if the air conditioner, automatic feeder, water dispenser, litter box or other smart devices stop working? There are so many things that could go wrong." },
+    appealBody2: { ja: "エアコン、自動餌やり機、自動トイレ、その他スマート家電が止まってしまったら…。考えられる懸念点は、たくさんあります。", en: "What if the air conditioner, automatic feeder, litter box or other smart devices stop working? There are so many things that could go wrong." },
     appealLead: { ja: "代表個人で経営・運営しているからこそ、ご家族の心配を最小限にできるよう、様々な面から全力でサポートいたします。", en: "Because the owner runs everything personally, we support you from every angle to keep your family's worries to a minimum." },
     appealCta: { ja: "まずはLINEで相談", en: "Talk to us on LINE" },
 
