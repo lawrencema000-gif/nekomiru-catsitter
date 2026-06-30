@@ -33,6 +33,7 @@
     heroBadge2: { ja: "猫歴14年以上", en: "14+ years with cats" },
     heroBadge3: { ja: "毎回お写真でご報告", en: "Photo report every visit" },
     heroBadge4: { ja: "オーダーメイドプランも可", en: "Custom plans available" },
+    heroBadge5: { ja: "長期のご利用にも最適", en: "Great for long stays too" },
     heroChip: { ja: "「今日も元気です」", en: "“Doing great today!”" },
 
     aboutLabel: { ja: "安心ポイント", en: "Why choose us" },
