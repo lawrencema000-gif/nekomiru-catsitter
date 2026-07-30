@@ -1,7 +1,7 @@
 # ねこみるキャットシッター / Nekomiru Cat Sitter
 
-大阪市内専門の猫ペットシッター事業のための、日本語／英語バイリンガル・ワンページサイト。
-A bilingual (JA/EN) single-page marketing site for a cat-only pet-sitting service in Osaka City.
+名古屋市内専門の猫ペットシッター事業のための、日本語／英語バイリンガル・ワンページサイト。
+A bilingual (JA/EN) single-page marketing site for a cat-only pet-sitting service in Nagoya City.
 
 ## 構成 / Stack
 - Plain static site — HTML + CSS + vanilla JS. No build step, no database.

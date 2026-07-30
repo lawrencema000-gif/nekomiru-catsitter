@@ -4,13 +4,13 @@
 
   const I18N = {
     docTitle: {
-      ja: "ねこみるキャットシッター｜大阪市内・猫歴14年以上の猫専門家",
-      en: "Nekomiru Cat Sitter | Cat-only pet sitting in Osaka",
+      ja: "ねこみるキャットシッター｜名古屋市内・猫歴14年以上の猫専門家",
+      en: "Nekomiru Cat Sitter | Cat-only pet sitting in Nagoya",
     },
     skip: { ja: "本文へスキップ", en: "Skip to content" },
 
     brand: { ja: "ねこみる", en: "Nekomiru" },
-    brandSub: { ja: "CAT SITTER · OSAKA", en: "CAT SITTER · OSAKA" },
+    brandSub: { ja: "CAT SITTER · NAGOYA", en: "CAT SITTER · NAGOYA" },
 
     navAbout: { ja: "安心ポイント", en: "Why us" },
     navServices: { ja: "サービス", en: "Services" },
@@ -20,12 +20,12 @@
     navVoices: { ja: "お客様の声", en: "Voices" },
     navContact: { ja: "お問い合わせ", en: "Contact" },
 
-    heroEyebrow: { ja: "大阪市内 ・ 猫歴14年以上 ・ 女性シッター", en: "Osaka City · 14+ yrs with cats · Female sitter" },
+    heroEyebrow: { ja: "名古屋市内 ・ 猫歴14年以上 ・ 女性シッター", en: "Nagoya City · 14+ yrs with cats · Female sitter" },
     heroTitle1: { ja: "猫ちゃんは、", en: "Cats are" },
     heroTitle2: { ja: "おうちがいちばん。", en: "happiest at home." },
     heroLead: {
-      ja: "お留守のあいだも、いつものお部屋で。大阪市内専門の猫シッターが、やさしくお世話して、毎回お写真付きでご報告します。",
-      en: "While you're away, your cat stays in its own familiar room. Our Osaka cat sitters care for them gently and send photo updates after every visit.",
+      ja: "お留守のあいだも、いつものお部屋で。名古屋市内専門の猫シッターが、やさしくお世話して、毎回お写真付きでご報告します。",
+      en: "While you're away, your cat stays in its own familiar room. Our Nagoya cat sitters care for them gently and send photo updates after every visit.",
     },
     heroCta1: { ja: "お問い合わせ", en: "Get in touch" },
     heroCta2: { ja: "LINEで相談", en: "Chat on LINE" },
@@ -44,8 +44,8 @@
     about2Body: { ja: "猫歴14年以上。猫の気持ちと習性を知り尽くした専門家が、ていねいにお世話します。猫ちゃんと同居のわんちゃんも、わんにゃんプランで一緒に。", en: "With 14+ years caring for cats, an expert who truly understands their needs looks after your cat. Cohabiting dogs are welcome via the Cat & Dog Plan." },
     about3Title: { ja: "毎回お写真でご報告", en: "Photo report every visit" },
     about3Body: { ja: "お世話のたびに、猫ちゃんのようすをお写真とメッセージでお届け。離れていても安心です。", en: "After each visit we send photos and a message, so you stay close even from afar." },
-    about4Title: { ja: "大阪市内に対応", en: "All across Osaka City" },
-    about4Body: { ja: "大阪市内ならどこでもお伺いします。ご旅行・ご出張・里帰りなど、さまざまな場面で。", en: "We visit anywhere within Osaka City — for travel, business trips, family visits and more." },
+    about4Title: { ja: "名古屋市内に対応", en: "All across Nagoya City" },
+    about4Body: { ja: "名古屋市内ならどこでもお伺いします。ご旅行・ご出張・里帰りなど、さまざまな場面で。", en: "We visit anywhere within Nagoya City — for travel, business trips, family visits and more." },
     about5Title: { ja: "寄り添うカスタムプランも", en: "Flexible custom plans too" },
     about5Body: { ja: "お客様と猫ちゃんに寄り添って、内容も時間もご相談に応じて自由にお決めいただけます。", en: "We tailor everything — content and timing — to you and your cat, by consultation." },
     about6Title: { ja: "英語OK・海外の方も歓迎", en: "English OK — visitors welcome" },
@@ -76,7 +76,7 @@
 
     priceLabel: { ja: "料金", en: "Pricing" },
     priceTitle: { ja: "わかりやすい、シンプルな料金", en: "Simple, clear pricing" },
-    priceLead: { ja: "大阪市内を中心にお伺いします。ご不明な点はお気軽にお問い合わせください。", en: "We serve mainly Osaka City. Please ask us about anything unclear." },
+    priceLead: { ja: "名古屋市内を中心にお伺いします。ご不明な点はお気軽にお問い合わせください。", en: "We serve mainly Nagoya City. Please ask us about anything unclear." },
     price1Title: { ja: "日々のお世話", en: "Daily care" },
     price1Desc: { ja: "給餌・トイレ・健康チェック・遊び・お写真付きご報告", en: "Feeding, litter, health check, play & a photo report" },
     price1Freq1Label: { ja: "クイックコース（30分）", en: "Quick Course (30 min)" },
@@ -158,17 +158,17 @@
     faqQ8: { ja: "留守中の家の中を見られるのが不安です。", en: "I'm worried about privacy in my home." },
     faqA8: { ja: "お世話に必要な範囲のみでお伺いします。立ち入ってほしくない場所など、事前にお気軽にお伝えください。", en: "We stay only within the areas needed for care. Just tell us in advance about any off-limits spaces." },
     faqQ9: { ja: "対応エリアはどこですか？", en: "What is your service area?" },
-    faqA9: { ja: "大阪市内に対応しています。市外の場合も一度ご相談ください。", en: "We serve Osaka City. For areas outside the city, please ask us." },
+    faqA9: { ja: "名古屋市内に対応しています。市外の場合も一度ご相談ください。", en: "We serve Nagoya City. For areas outside the city, please ask us." },
 
     voicesLabel: { ja: "お客様の声", en: "Client voices" },
     voicesTitle: { ja: "ご利用いただいたお客様より", en: "From the clients we've cared for" },
     voicesNote: { ja: "※ 以下はサンプルです。実際のお客様の声に差し替えできます。", en: "* Samples below — replace with real client testimonials." },
     voice1: { ja: "毎回お写真が届くので、出張中もまったく心配いりませんでした。帰宅したら、いつもどおりのんびりしていてホッとしました。", en: "Photos arrived every time, so I didn't worry at all on my trip. I came home to a perfectly relaxed cat." },
-    voice1By: { ja: "— 大阪市・Aさん（サンプル）", en: "— A., Osaka City (sample)" },
+    voice1By: { ja: "— 名古屋市・Aさん（サンプル）", en: "— A., Nagoya City (sample)" },
     voice2: { ja: "人見知りのうちの子が、初回の顔合わせですっかり安心していました。女性のシッターさんというのも決め手でした。", en: "My shy cat was completely at ease after the first meeting. Having a female sitter was a big deciding factor for me." },
-    voice2By: { ja: "— 大阪市・Mさん（サンプル）", en: "— M., Osaka City (sample)" },
+    voice2By: { ja: "— 名古屋市・Mさん（サンプル）", en: "— M., Nagoya City (sample)" },
     voice3: { ja: "通院のサポートまでお願いできて本当に助かりました。猫のことをよく分かってくださる方で、安心しておまかせできます。", en: "Being able to ask for vet-visit support was a huge help. They truly understand cats — I trust them completely." },
-    voice3By: { ja: "— 大阪市・Tさん（サンプル）", en: "— T., Osaka City (sample)" },
+    voice3By: { ja: "— 名古屋市・Tさん（サンプル）", en: "— T., Nagoya City (sample)" },
 
     contactLabel: { ja: "お問い合わせ", en: "Contact" },
     contactTitle: { ja: "LINEでお気軽にご相談ください", en: "Reach us easily on LINE" },
@@ -176,11 +176,11 @@
     lineCtaBig: { ja: "LINEで友だち追加・ご相談", en: "Add us on LINE & chat" },
     fabLine: { ja: "LINEで相談", en: "Chat on LINE" },
     contactAreaLabel: { ja: "対応エリア", en: "Service area" },
-    contactArea: { ja: "大阪市内", en: "Osaka City" },
+    contactArea: { ja: "名古屋市内", en: "Nagoya City" },
 
 
     footerName: { ja: "ねこみるキャットシッター", en: "Nekomiru Cat Sitter" },
-    footerTag: { ja: "大阪市内・猫歴14年以上の猫専門家", en: "Osaka cat expert — 14+ years' experience" },
+    footerTag: { ja: "名古屋市内・猫歴14年以上の猫専門家", en: "Nagoya cat expert — 14+ years' experience" },
 
     // Form status messages (used by main.js)
     formSending: { ja: "送信中…", en: "Sending…" },
