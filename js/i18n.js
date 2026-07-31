@@ -82,7 +82,7 @@
     price1Freq1Label: { ja: "クイックコース（30分）", en: "Quick Course (30 min)" },
     price1Freq2Label: { ja: "1時間", en: "1 hour" },
     price1Freq3Label: { ja: "2時間", en: "2 hours" },
-    price1Freq4Label: { ja: "朝夕2回（1時間ずつ）", en: "Twice a day (1 hour each)" },
+    price1Freq4Label: { ja: "朝夕2回", en: "Twice a day" },
     price1Note: { ja: "税込・猫ちゃんは何匹でも追加料金なし・ワクチン＆ノミダニ予防が条件", en: "Tax incl. · any number of cats, no extra charge · vaccines & flea/tick prevention required" },
     price2Title: { ja: "通院サポート", en: "Vet-visit support" },
     price2Desc: { ja: "かかりつけ医への通院に付き添います", en: "We accompany visits to your regular vet" },
