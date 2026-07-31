@@ -20,7 +20,7 @@ registration number are copied from the reference site.
   - わんにゃんプラン (Cat & Dog Plan) — by visit duration: **30 min ¥4,000** / **60 min ¥5,000** (tax incl.; cats plus a cohabiting dog; no pet limit; vaccines & flea/tick prevention required)
   - オプション (add-on): お散歩 dog walk — 15 min **¥700** / 30 min **¥1,000** (tax incl.)
   - 交通費 (travel fee): flat **¥500** within the service area (tax incl.); outside the area by consultation. Shown as a small visible chip (modest, not hidden).
-  - 初回カルテ作成 (one-time chart-creation fee, first booking only): **¥1,000** (tax incl.). Shown as subtle fine print.
+  - 初回カルテ作成 (one-time chart-creation fee, first booking only): **¥1,000** (tax incl.) — **superseded 2026-07-30: now ¥1,500.** Shown as subtle fine print.
   - 通院サポート (vet-visit support): **¥3,000 / hour**
   - その他カスタムサポート (other custom support): **¥2,000〜**
   - お電話でのご相談 (phone consult, active clients): **無料 / free**
