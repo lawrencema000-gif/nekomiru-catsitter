@@ -16,7 +16,7 @@ registration number are copied from the reference site.
 - **LINE:** https://lin.ee/t4dVKcp (official add-friend link; the LINE ID is not shown publicly)
 - **Service area:** 大阪市内 (within Osaka City) — **superseded 2026-07-30: service area changed to 名古屋市内 (within Nagoya City).** This document is a dated snapshot of the 2026-06-29 design session; the live site is the source of truth.
 - **Pricing** (per client request — same tiers as reference, daily rate changed to ¥3,500):
-  - 日々のお世話 (daily care: feeding, litter, health check, play, report) — tiers by visit duration: **30 min ¥3,500** / **60 min ¥4,500** (tax incl.; any number of cats, no extra charge)
+  - 日々のお世話 (daily care: feeding, litter, health check, play, report) — tiers by visit duration: **30 min ¥3,500** / **60 min ¥4,500** (tax incl.; any number of cats, no extra charge) — **superseded 2026-07-30: the cat-only plan was levelled up to match わんにゃんプラン exactly — 30 min ¥4,000 / 1 hr ¥5,000 / 2 hr ¥8,000 / twice-daily 30 min ¥7,500 / twice-daily 1 hr ¥8,500.**
   - わんにゃんプラン (Cat & Dog Plan) — by visit duration: **30 min ¥4,000** / **60 min ¥5,000** (tax incl.; cats plus a cohabiting dog; no pet limit; vaccines & flea/tick prevention required)
   - オプション (add-on): お散歩 dog walk — 15 min **¥700** / 30 min **¥1,000** (tax incl.)
   - 交通費 (travel fee): flat **¥500** within the service area (tax incl.); outside the area by consultation. Shown as a small visible chip (modest, not hidden).
