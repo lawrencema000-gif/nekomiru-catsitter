@@ -80,7 +80,7 @@
     price1Title: { ja: "日々のお世話", en: "Daily care" },
     price1Desc: { ja: "給餌・トイレ・健康チェック・遊び・お写真付きご報告", en: "Feeding, litter, health check, play & a photo report" },
     price1Freq2Label: { ja: "1日1回（45分ほど）", en: "Once a day (about 45 min)" },
-    price1Freq6Label: { ja: "1日1回（60分〜）", en: "Once a day (60 min+)" },
+    price1Freq6Label: { ja: "1日1回（60分ほど）", en: "Once a day (about 60 min)" },
     price1Freq4Label: { ja: "朝夕2回", en: "Twice a day" },
     price1Note: { ja: "税込・猫ちゃんは何匹でも追加料金なし・ワクチン＆ノミダニ予防が条件", en: "Tax incl. · any number of cats, no extra charge · vaccines & flea/tick prevention required" },
     price2Title: { ja: "通院サポート", en: "Vet-visit support" },
