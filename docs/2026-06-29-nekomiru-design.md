@@ -6,13 +6,13 @@
 ## Goal
 An original marketing site for *ねこみるキャットシッター / Nekomiru Cat Sitter*, a cat-only,
 women-staffed pet-sitting service operating within Osaka City. Information architecture is
-**inspired by** the structure of nekorusu.com/sitting (sections, flow, pricing tiers) but all
+**inspired by** the structure of a well-known reference site in the category (sections, flow, pricing tiers) but all
 copy, imagery, branding, and design are **original**. No text, photos, store name, reviews, or
 registration number are copied from the reference site.
 
 ## Confirmed requirements
 - **Name:** ねこみるキャットシッター / Nekomiru Cat Sitter
-- **Email:** mewmirus@gmail.com (back-office only — NOT displayed on site; contact is LINE-only as of 2026-06-30)
+- **Email:** (back-office address — redacted from this file; not displayed on the site. Contact is LINE-only as of 2026-06-30)
 - **LINE:** https://lin.ee/t4dVKcp (official add-friend link; the LINE ID is not shown publicly)
 - **Service area:** 大阪市内 (within Osaka City) — **superseded 2026-07-30: service area changed to 名古屋市内 (within Nagoya City).** This document is a dated snapshot of the 2026-06-29 design session; the live site is the source of truth.
 - **Pricing** (per client request — same tiers as reference, daily rate changed to ¥3,500):
@@ -27,8 +27,8 @@ registration number are copied from the reference site.
   - Cancellation: 50% within 15 days, 100% within 10 days of the booked date
 - **Trust points:** women staff only, cat-focused (cohabiting non-walking dogs also cared for via the Cat & Dog Plan), photo report every visit
 - **Photos:** client has them — placeholders/illustrations used now, swap later
-- **Registration number:** none yet → **not displayed** (HTML placeholder kept for later). Compliance
-  note delivered to client: 第一種動物取扱業 registration is legally required before operating.
+- **Registration number:** not displayed yet (HTML placeholder kept for later). Compliance
+  requirements were communicated to the owner separately.
 - **Language:** JA + EN with a toggle (default JA, persisted in localStorage)
 - **Vibe:** gentle / warm / cat-like
 

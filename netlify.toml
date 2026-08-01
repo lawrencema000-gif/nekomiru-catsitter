@@ -2,6 +2,26 @@
 [build]
   publish = "."
 
+# publish = "." serves the whole repo root, which was exposing internal docs at
+# /README.md and /docs/*. force = true makes these win over the real files.
+[[redirects]]
+  from = "/README.md"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/*"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*.md"
+  to = "/"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
