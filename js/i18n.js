@@ -98,7 +98,7 @@
     price4Note: { ja: "いつでもお気軽にどうぞ", en: "Reach out any time" },
     optTitle: { ja: "オプション：お散歩", en: "Option: Dog walk" },
     optSub: { ja: "わんにゃんプランに追加できます（税込）", en: "Add-on for the Cat & Dog Plan (tax incl.)" },
-    optWalk2: { ja: "お散歩30分", en: "30-min walk" },
+    optWalk2: { ja: "お散歩（プラン時間内）", en: "Walk (within plan time)" },
     feeNote: { ja: "交通費：対象エリア内 300円/回（税込）／エリア外は別途ご相談", en: "Travel fee: ¥300 per visit within our service area (tax incl.) / outside the area by consultation" },
     kartNote: { ja: "初回のみ・カルテ作成料 2000円（税込）", en: "First booking only — ¥2000 chart-creation fee (tax incl.)" },
     timeNote: { ja: "※時間指定は別途1000円", en: "* Specific visit time: ¥1000 extra" },
