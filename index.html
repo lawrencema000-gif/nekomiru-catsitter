@@ -8,19 +8,155 @@
   <meta name="description" content="ねこみるキャットシッターは名古屋市内専門の猫シッター。女性のペットシッター・猫歴14年以上の猫専門家・毎回お写真付きでご報告。おうちでいつものまま、大切な猫ちゃんをお世話します。" />
   <meta name="theme-color" content="#FBF8F1" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="canonical" href="https://nekomiru-catsitter.netlify.app/" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
 
-  <!-- Open Graph -->
+  <!-- Open Graph — og:image drives the LINE / social share preview -->
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ねこみるキャットシッター" />
+  <meta property="og:url" content="https://nekomiru-catsitter.netlify.app/" />
   <meta property="og:title" content="ねこみるキャットシッター｜名古屋市内・猫歴14年以上の猫専門家" />
   <meta property="og:description" content="女性のペットシッター・猫歴14年以上の猫専門家・毎回お写真付きでご報告。名古屋市内の猫ちゃんをおうちでお世話します。" />
   <meta property="og:locale" content="ja_JP" />
+  <meta property="og:image" content="https://nekomiru-catsitter.netlify.app/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="ねこみるキャットシッター｜名古屋市内・猫歴14年以上" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ねこみるキャットシッター｜名古屋市内・猫歴14年以上の猫専門家" />
+  <meta name="twitter:description" content="女性のペットシッター・猫歴14年以上の猫専門家・毎回お写真付きでご報告。名古屋市内の猫ちゃんをおうちでお世話します。" />
+  <meta name="twitter:image" content="https://nekomiru-catsitter.netlify.app/assets/og-image.jpg" />
 
-  <!-- Fonts: Zen Maru Gothic (rounded headings) + Zen Kaku Gothic New (body) -->
+  <!-- Fonts: Zen Maru Gothic (rounded headings) + Zen Kaku Gothic New (body).
+       Loaded non-blocking: the stylesheet is fetched as a low-priority resource
+       and promoted to a real stylesheet on load, so it never blocks first paint. -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" media="print" onload="this.media='all';this.onload=null"
+        href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" />
+  </noscript>
 
   <link rel="stylesheet" href="css/styles.css?v=20260630ay" />
+
+  <!-- Structured data. Deliberately omitted: aggregateRating / review (no real
+       reviews yet — inventing them breaks Google's guidelines) and postalAddress
+       (service-area business with no public address; areaServed carries the geo). -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://nekomiru-catsitter.netlify.app/#business",
+        "name": "ねこみるキャットシッター",
+        "alternateName": ["ねこみる", "Nekomiru Cat Sitter", "ねこみる キャットシッター"],
+        "description": "名古屋市内の猫専門・訪問キャットシッター。猫歴14年以上の女性シッターが、お留守のあいだも猫ちゃんをおうちでお世話し、毎回お写真付きでご報告します。",
+        "url": "https://nekomiru-catsitter.netlify.app/",
+        "image": "https://nekomiru-catsitter.netlify.app/assets/og-image.jpg",
+        "logo": "https://nekomiru-catsitter.netlify.app/assets/nekomiru-cat.jpg",
+        "priceRange": "¥4,000〜¥7,000",
+        "currenciesAccepted": "JPY",
+        "knowsLanguage": ["ja", "en"],
+        "areaServed": {
+          "@type": "City",
+          "name": "名古屋市",
+          "alternateName": "Nagoya",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "愛知県"
+          }
+        },
+        "sameAs": ["https://lin.ee/t4dVKcp"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "キャットシッター料金",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "日々のお世話 — 1日1回（30分ほど）",
+              "price": "4000",
+              "priceCurrency": "JPY",
+              "description": "給餌・トイレ・健康チェック・遊び・お写真付きご報告。2匹目以降は1匹につき+750円。",
+              "itemOffered": { "@type": "Service", "name": "訪問キャットシッター（1日1回・30分）" }
+            },
+            {
+              "@type": "Offer",
+              "name": "日々のお世話 — 1日1回（60分ほど）",
+              "price": "5500",
+              "priceCurrency": "JPY",
+              "itemOffered": { "@type": "Service", "name": "訪問キャットシッター（1日1回・60分）" }
+            },
+            {
+              "@type": "Offer",
+              "name": "日々のお世話 — 朝夕2回（30分ずつ）",
+              "price": "7000",
+              "priceCurrency": "JPY",
+              "itemOffered": { "@type": "Service", "name": "訪問キャットシッター（朝夕2回）" }
+            },
+            {
+              "@type": "Offer",
+              "name": "通院サポート",
+              "price": "3000",
+              "priceCurrency": "JPY",
+              "description": "かかりつけ医への通院に付き添います（1時間あたり）。猫ちゃんの状態により応相談。",
+              "itemOffered": { "@type": "Service", "name": "通院サポート" }
+            },
+            {
+              "@type": "Offer",
+              "name": "オプション：お散歩（プラン時間内）",
+              "price": "1000",
+              "priceCurrency": "JPY",
+              "itemOffered": { "@type": "Service", "name": "お散歩オプション" }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://nekomiru-catsitter.netlify.app/#service",
+        "serviceType": "キャットシッター・訪問ペットシッター",
+        "name": "名古屋市内の訪問キャットシッター",
+        "provider": { "@id": "https://nekomiru-catsitter.netlify.app/#business" },
+        "areaServed": { "@type": "City", "name": "名古屋市" },
+        "availableLanguage": ["ja", "en"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://nekomiru-catsitter.netlify.app/#website",
+        "url": "https://nekomiru-catsitter.netlify.app/",
+        "name": "ねこみるキャットシッター",
+        "inLanguage": "ja",
+        "publisher": { "@id": "https://nekomiru-catsitter.netlify.app/#business" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://nekomiru-catsitter.netlify.app/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "鍵は預けるのですか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "はい。お世話の期間中は鍵をお預かりします。最終日にドアポストへのご返却、または郵送（別途送料）でお返しします。" } },
+          { "@type": "Question", "name": "1日に何回来てもらえますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "ご希望に応じて、1日に複数回お伺いすることも可能です。回数や時間帯は、猫ちゃんの頭数やご様子に合わせてお気軽にご相談ください。" } },
+          { "@type": "Question", "name": "写真は毎回もらえますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "はい。お世話のたびに、猫ちゃんのお写真とメッセージをお送りします。離れていてもようすが分かるので安心です。" } },
+          { "@type": "Question", "name": "急なお願いもできますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "空き状況によっては当日・前日のご依頼も承ります。まずはLINEでお問い合わせください。" } },
+          { "@type": "Question", "name": "猫以外のお世話（植物の水やりなど）も頼めますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "はい、カスタムサポートとして対応可能です。郵便物の確認や植物の水やりなど、お気軽にご相談ください。" } },
+          { "@type": "Question", "name": "多頭飼いでも大丈夫ですか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "もちろんです。2匹目以降は1匹につき+750円でお世話いたします。" } },
+          { "@type": "Question", "name": "急に体調が悪くなったら？",
+            "acceptedAnswer": { "@type": "Answer", "text": "すぐにご連絡し、ご指定のかかりつけ医への通院サポートなど、できる限りの対応をします。事前に緊急時のご希望を伺っておきます。" } },
+          { "@type": "Question", "name": "留守中の家の中を見られるのが不安です。",
+            "acceptedAnswer": { "@type": "Answer", "text": "お世話に必要な範囲のみでお伺いします。立ち入ってほしくない場所など、事前にお気軽にお伝えください。" } },
+          { "@type": "Question", "name": "対応エリアはどこですか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "名古屋市内に対応しています。市外の場合も一度ご相談ください。" } }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 

@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://nekomiru-catsitter.netlify.app/sitemap.xml
