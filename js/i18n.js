@@ -79,7 +79,7 @@
     priceLead: { ja: "名古屋市内を中心にお伺いします。ご不明な点はお気軽にお問い合わせください。", en: "We serve mainly Nagoya City. Please ask us about anything unclear." },
     price1Title: { ja: "日々のお世話", en: "Daily care" },
     price1Desc: { ja: "給餌・トイレ・健康チェック・遊び・お写真付きご報告", en: "Feeding, litter, health check, play & a photo report" },
-    price1Freq2Label: { ja: "1日1回（45分ほど）", en: "Once a day (about 45 min)" },
+    price1Freq2Label: { ja: "1日1回（30分ほど）", en: "Once a day (about 30 min)" },
     price1Freq6Label: { ja: "1日1回（60分ほど）", en: "Once a day (about 60 min)" },
     price1Freq4Label: { ja: "朝夕2回", en: "Twice a day" },
     price1Note: { ja: "税込・猫ちゃんは何匹でも追加料金なし・ワクチン＆ノミダニ予防が条件", en: "Tax incl. · any number of cats, no extra charge · vaccines & flea/tick prevention required" },
@@ -101,7 +101,7 @@
     optWalk2: { ja: "お散歩30分", en: "30-min walk" },
     feeNote: { ja: "交通費：対象エリア内 300円/回（税込）／エリア外は別途ご相談", en: "Travel fee: ¥300 per visit within our service area (tax incl.) / outside the area by consultation" },
     kartNote: { ja: "初回のみ・カルテ作成料 2000円（税込）", en: "First booking only — ¥2000 chart-creation fee (tax incl.)" },
-    timeNote: { ja: "※時間指定は別途1000円（税込）", en: "* Specific visit time: ¥1000 extra (tax incl.)" },
+    timeNote: { ja: "※時間指定は別途1000円", en: "* Specific visit time: ¥1000 extra" },
     priceCancel: {
       ja: "キャンセル料：ご利用日の15日前以内は50％、10日前以内は100％を申し受けます。料金は税込表示です。",
       en: "Cancellation: 50% within 15 days of the booked date, 100% within 10 days. Prices include tax.",
