@@ -4,8 +4,8 @@
 
   const I18N = {
     docTitle: {
-      ja: "ねこみるキャットシッター｜名古屋市内・猫歴14年以上の猫専門家",
-      en: "Nekomiru Cat Sitter | Cat-only pet sitting in Nagoya",
+      ja: "名古屋市の訪問キャットシッター｜ねこみる（猫専門・女性シッター）",
+      en: "Cat Sitter in Nagoya | Nekomiru — Cat-Only, Female Sitter, English OK",
     },
     skip: { ja: "本文へスキップ", en: "Skip to content" },
 
@@ -14,13 +14,15 @@
 
     navAbout: { ja: "安心ポイント", en: "Why us" },
     navServices: { ja: "サービス", en: "Services" },
+    navArea: { ja: "対応エリア", en: "Areas" },
     navPricing: { ja: "料金", en: "Pricing" },
     navFlow: { ja: "ご利用の流れ", en: "How it works" },
     navFaq: { ja: "よくある質問", en: "FAQ" },
     navVoices: { ja: "お客様の声", en: "Voices" },
     navContact: { ja: "お問い合わせ", en: "Contact" },
 
-    heroEyebrow: { ja: "名古屋市内 ・ 猫歴14年以上 ・ 女性シッター", en: "Nagoya City · 14+ yrs with cats · Female sitter" },
+    heroEyebrow: { ja: "猫歴14年以上 ・ 女性シッター ・ 英語OK", en: "14+ yrs with cats · Female sitter · English OK" },
+    heroKicker: { ja: "名古屋市の訪問キャットシッター", en: "In-home cat sitting in Nagoya" },
     heroTitle1: { ja: "猫ちゃんは、", en: "Cats are" },
     heroTitle2: { ja: "おうちがいちばん。", en: "happiest at home." },
     heroLead: {
@@ -83,6 +85,36 @@
     price1Freq6Label: { ja: "1日1回（60分ほど）", en: "Once a day (about 60 min)" },
     price1Freq4Label: { ja: "朝夕2回（30分ずつ）", en: "Twice a day (30 min each)" },
     price1Note: { ja: "税込・2匹目以降は1匹につき+750円・ワクチン＆ノミダニ予防が条件", en: "Tax incl. · +¥750 per additional cat from the 2nd · vaccines & flea/tick prevention required" },
+    areaLabel: { ja: "対応エリア", en: "Service areas" },
+    areaTitle: { ja: "名古屋市16区に対応しています", en: "We cover all 16 wards of Nagoya City" },
+    areaLead: {
+      ja: "名古屋市内であれば、いずれの区にも訪問キャットシッターとしてお伺いします。地下鉄東山線・桜通線・鶴舞線・名城線の沿線（名駅・栄・金山・本山・八事・藤が丘・大曽根など）は、日ごろからよくお伺いしているエリアです。市外（尾張旭市・長久手市・日進市など）も一度ご相談ください。",
+      en: "We visit anywhere inside Nagoya City. The Higashiyama, Sakura-dori, Tsurumai and Meijo subway lines (Meieki, Sakae, Kanayama, Motoyama, Yagoto, Fujigaoka, Ozone) are areas we cover regularly. Just outside the city — Owariasahi, Nagakute, Nisshin — please ask us.",
+    },
+    areaFee: { ja: "交通費は対象エリア内 300円/回（税込）。エリア外は別途ご相談ください。", en: "Travel fee ¥300 per visit (tax incl.) inside the service area; outside the area by consultation." },
+
+    simTitle: { ja: "料金の目安（例）", en: "A worked example" },
+    simBody: {
+      ja: "2泊3日のご旅行で、猫ちゃん1匹・1日1回（30分ほど）・計3回の訪問をご利用の場合：お世話 4,000円 × 3回 ＝ 12,000円／交通費 300円 × 3回 ＝ 900円／初回のみカルテ作成料 2,000円。合計 14,900円（税込・はじめてのご利用の場合）。2回目以降のご利用は 12,900円です。訪問回数やお世話の時間は自由に組み合わせていただけます。",
+      en: "A 3-day / 2-night trip, one cat, once a day (about 30 min), 3 visits total: care ¥4,000 x 3 = ¥12,000, travel ¥300 x 3 = ¥900, plus a one-time ¥2,000 chart-creation fee on your first booking. Total ¥14,900 (tax incl., first booking). ¥12,900 for later bookings. Visit count and duration are yours to combine.",
+    },
+
+    vsLabel: { ja: "くらべてみる", en: "Compare" },
+    vsTitle: { ja: "ペットホテルに預けるか、キャットシッターか", en: "Cat hotel or cat sitter?" },
+    vsLead: { ja: "どちらが良いかは、猫ちゃんの性格とお留守の長さで変わります。判断の材料になるよう、正直なところをまとめました。", en: "Which suits you depends on your cat's temperament and how long you'll be away. Here is an honest comparison." },
+    vs1Title: { ja: "環境の変化によるストレス", en: "Stress from a change of environment" },
+    vs1Body: { ja: "猫は縄張りの生きものなので、場所が変わること自体が大きな負担になります。ペットホテルでは、慣れない部屋・におい・他の動物の気配が加わります。訪問シッターなら、いつものお部屋・いつものトイレ・いつもの寝床のまま過ごせます。環境の変化が苦手な子ほど、差が出ます。", en: "Cats are territorial, so a change of place is itself a burden. A hotel adds an unfamiliar room, unfamiliar smells and the presence of other animals. With a visiting sitter your cat keeps its own room, its own litter box and its own bed. The more sensitive the cat, the bigger the difference." },
+    vs2Title: { ja: "移動の負担", en: "The journey itself" },
+    vs2Body: { ja: "ホテルを利用する場合、キャリーでの往復が必要です。通院で緊張してしまう子や、シニアの猫ちゃんには、この移動自体が負担になることがあります。訪問なら移動はありません。", en: "A hotel means a round trip in a carrier. For cats that tense up on vet trips, and for senior cats, the journey alone can be hard. A home visit involves no travel at all." },
+    vs3Title: { ja: "留守番は何日まで大丈夫か", en: "How long can a cat be left alone?" },
+    vs3Body: { ja: "健康な成猫でも、人が誰も来ない完全な留守番は1泊が限度と考えてください。自動給餌器や自動給水器があっても、停止・詰まり・停電のリスクは残り、体調の変化には誰も気づけません。2日以上家を空けるなら、1日1回でも人が見に行く形をおすすめします。", en: "Even for a healthy adult cat, treat one night as the limit for a completely unattended stay. Automatic feeders and water dispensers still jam, stop or lose power, and nobody is there to notice a change in condition. If you'll be away two days or more, we recommend at least one visit a day." },
+    vs4Title: { ja: "多頭飼い・シニア猫・投薬", en: "Multiple cats, senior cats, medication" },
+    vs4Body: { ja: "多頭飼いのお宅は、ホテルだと頭数分の料金がかかることが一般的です。訪問なら1回の訪問でまとめてお世話できます（2匹目以降は1匹につき+750円）。投薬が必要な子やシニアの猫ちゃんも、ご指示の範囲で対応します。", en: "Hotels usually charge per cat. A single visit covers the whole household (+¥750 per cat from the second). We can also handle medication and senior care within your and your vet's instructions." },
+    vs5Title: { ja: "費用の考え方", en: "How the cost works out" },
+    vs5Body: { ja: "1泊あたりの単価だけを見るとホテルが安く見えることもありますが、頭数が増えるほど訪問のほうが有利になります。また、お世話のたびにお写真つきでご報告するので、離れていてもようすが分かります。ご予算に合わせて訪問回数を調整することもできます。", en: "Per night, a hotel can look cheaper — but the more cats you have, the more visits win. You also get a photo report after every visit, and you can tune the number of visits to your budget." },
+    vs6Title: { ja: "ホテルのほうが向いている場合", en: "When a hotel is the better choice" },
+    vs6Body: { ja: "正直にお伝えすると、常に人の目が必要なほど持病が重い場合や、災害時にすぐ避難が必要な状況が想定される場合は、常時スタッフのいる施設や動物病院での預かりのほうが安心です。迷われたときは、遠慮なくご相談ください。", en: "Honestly: if a condition needs constant supervision, or if you expect a situation requiring immediate evacuation, a staffed facility or a veterinary boarding service is safer. When in doubt, just ask us." },
+
     price2Title: { ja: "通院サポート", en: "Vet-visit support" },
     price2Desc: { ja: "かかりつけ医への通院に付き添います", en: "We accompany visits to your regular vet" },
     priceHour: { ja: "／時間", en: "/ hour" },
@@ -148,7 +180,7 @@
     faqQ8: { ja: "留守中の家の中を見られるのが不安です。", en: "I'm worried about privacy in my home." },
     faqA8: { ja: "お世話に必要な範囲のみでお伺いします。立ち入ってほしくない場所など、事前にお気軽にお伝えください。", en: "We stay only within the areas needed for care. Just tell us in advance about any off-limits spaces." },
     faqQ9: { ja: "対応エリアはどこですか？", en: "What is your service area?" },
-    faqA9: { ja: "名古屋市内に対応しています。市外の場合も一度ご相談ください。", en: "We serve Nagoya City. For areas outside the city, please ask us." },
+    faqA9: { ja: "名古屋市16区（千種区・東区・北区・西区・中村区・中区・昭和区・瑞穂区・熱田区・中川区・港区・南区・守山区・緑区・名東区・天白区）に対応しています。市外の場合も一度ご相談ください。", en: "We serve Nagoya City. For areas outside the city, please ask us." },
 
     voicesLabel: { ja: "お客様の声", en: "Client voices" },
     voicesTitle: { ja: "ご利用いただいたお客様より", en: "From the clients we've cared for" },

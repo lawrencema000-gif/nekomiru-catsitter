@@ -471,3 +471,43 @@ a:focus-visible, button:focus-visible, summary:focus-visible,
   *{ animation:none!important; scroll-behavior:auto!important; }
   .reveal, .js-anim .reveal{ opacity:1; transform:none; transition:none; }
 }
+
+/* ---------- Service-area list (16 Nagoya wards) ---------- */
+.area-list{
+  list-style:none; margin:0 auto 18px; padding:0; max-width:760px;
+  display:grid; grid-template-columns:repeat(4,1fr); gap:10px;
+}
+.area-list li{
+  background:var(--paper); border:2px solid var(--line-color); border-radius:var(--r-sm);
+  padding:.62em .4em; text-align:center; font-weight:700; font-size:.95rem;
+}
+.area-note{
+  display:flex; align-items:center; justify-content:center; gap:.5em;
+  color:var(--ink-soft); font-size:.85rem; margin:0;
+}
+@media (max-width:620px){ .area-list{ grid-template-columns:repeat(2,1fr); } }
+
+/* ---------- Worked pricing example ---------- */
+.price-sim{
+  max-width:760px; margin:22px auto 0; background:var(--paper);
+  border:2px solid var(--line-color); border-radius:var(--r-lg); padding:24px 26px;
+}
+.price-sim h3{ font-size:1.02rem; margin:0 0 .6em; }
+.price-sim p{ margin:0; color:var(--ink-soft); font-size:.92rem; line-height:1.9; }
+
+/* ---------- Hotel vs sitter ---------- */
+.vs-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+.vs-card{
+  background:var(--paper); border:2px solid var(--line-color); border-radius:var(--r-lg);
+  padding:26px 24px; display:flex; flex-direction:column; gap:.7em;
+}
+.vs-card h3{ font-size:1.02rem; margin:0; }
+.vs-card p{ margin:0; color:var(--ink-soft); font-size:.9rem; line-height:1.85; }
+@media (max-width:900px){ .vs-grid{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:620px){ .vs-grid{ grid-template-columns:1fr; } }
+
+/* ---------- Hero kicker (carries the local-intent keyword in the H1) ---------- */
+.hero-kicker{
+  display:block; font-size:clamp(.95rem,2.2vw,1.15rem); font-weight:700;
+  letter-spacing:.04em; color:var(--ginger); margin-bottom:.45em;
+}
